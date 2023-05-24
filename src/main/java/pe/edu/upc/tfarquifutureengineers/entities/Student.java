@@ -1,11 +1,22 @@
 package pe.edu.upc.tfarquifutureengineers.entities;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "students")
 public class Student {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idStudent;
+    @Column(name = "colegio",length = 60,nullable = false)
     private String colegio;
+    @Column(name = "edad", nullable = false)
     private int edad;
+    @Column(name = "users_user_id",nullable = false)
     private int users_user_id;
+    @Column(name = "membresia_id",nullable = false)
     private int membresia_id;
+    @Column(name="sala_id",nullable = false)
     private int sala_id;
 
     public Student() {
