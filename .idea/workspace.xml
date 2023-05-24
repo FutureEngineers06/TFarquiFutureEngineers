@@ -44,6 +44,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
@@ -52,12 +56,29 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+<<<<<<< HEAD
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;0782bab718b8a6a2303a6ea9620dd663&quot;,
+=======
+    &quot;spring.configuration.checksum&quot;: &quot;7329e4bb270bd31d9eb93eaf9fbb63fe&quot;,
+>>>>>>> origin/Tadashi
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.TFarquiFutureEngineersApplication (1)">
+    <configuration name="TFarquiFutureEngineersApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="backendIntelliJ" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pe.edu.upc.tfarquifutureengineers.TFarquiFutureEngineersApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.upc.tfarquifutureengineers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TFarquiFutureEngineersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TFarquiFutureEngineers" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pe.edu.upc.tfarquifutureengineers.TFarquiFutureEngineersApplication" />
@@ -65,6 +86,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.TFarquiFutureEngineersApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -76,6 +102,7 @@
       <updated>1684820260315</updated>
       <workItem from="1684820261416" duration="428000" />
       <workItem from="1684820801974" duration="7474000" />
+<<<<<<< HEAD
       <workItem from="1684905120482" duration="65000" />
       <workItem from="1684932046726" duration="20000" />
       <workItem from="1684933479621" duration="1418000" />
@@ -84,6 +111,14 @@
       <workItem from="1684947460883" duration="3000" />
       <workItem from="1684947482487" duration="6000" />
       <workItem from="1684947523326" duration="300000" />
+=======
+      <workItem from="1684887795997" duration="12000" />
+      <workItem from="1684887860632" duration="2000" />
+      <workItem from="1684894940280" duration="2932000" />
+      <workItem from="1684912866276" duration="435000" />
+      <workItem from="1684913680878" duration="4155000" />
+      <workItem from="1684939593562" duration="628000" />
+>>>>>>> origin/Tadashi
     </task>
     <task id="LOCAL-00001" summary="create class student">
       <created>1684945573641</created>
