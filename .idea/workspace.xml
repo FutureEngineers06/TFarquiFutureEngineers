@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="create class student">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -42,43 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Arquitectura de Aplicaciones Web/Trabajo Final Backend Arquitectura de Aplicaciones Web/TFarquiFutureEngineers&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-<<<<<<< HEAD
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;0782bab718b8a6a2303a6ea9620dd663&quot;,
-=======
-    &quot;spring.configuration.checksum&quot;: &quot;7329e4bb270bd31d9eb93eaf9fbb63fe&quot;,
->>>>>>> origin/Tadashi
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Arquitectura de Aplicaciones Web/Trabajo Final Backend Arquitectura de Aplicaciones Web/TFarquiFutureEngineers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "7329e4bb270bd31d9eb93eaf9fbb63fe",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Spring Boot.TFarquiFutureEngineersApplication (1)">
-    <configuration name="TFarquiFutureEngineersApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="backendIntelliJ" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="pe.edu.upc.tfarquifutureengineers.TFarquiFutureEngineersApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pe.edu.upc.tfarquifutureengineers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager">
     <configuration name="TFarquiFutureEngineersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TFarquiFutureEngineers" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pe.edu.upc.tfarquifutureengineers.TFarquiFutureEngineersApplication" />
@@ -86,11 +62,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.TFarquiFutureEngineersApplication (1)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,30 +73,15 @@
       <updated>1684820260315</updated>
       <workItem from="1684820261416" duration="428000" />
       <workItem from="1684820801974" duration="7474000" />
-<<<<<<< HEAD
-      <workItem from="1684905120482" duration="65000" />
-      <workItem from="1684932046726" duration="20000" />
-      <workItem from="1684933479621" duration="1418000" />
-      <workItem from="1684945229226" duration="2108000" />
-      <workItem from="1684947444867" duration="10000" />
-      <workItem from="1684947460883" duration="3000" />
-      <workItem from="1684947482487" duration="6000" />
-      <workItem from="1684947523326" duration="300000" />
-=======
-      <workItem from="1684887795997" duration="12000" />
-      <workItem from="1684887860632" duration="2000" />
-      <workItem from="1684894940280" duration="2932000" />
-      <workItem from="1684912866276" duration="435000" />
-      <workItem from="1684913680878" duration="4155000" />
-      <workItem from="1684939593562" duration="628000" />
->>>>>>> origin/Tadashi
+      <workItem from="1684888020339" duration="16000" />
+      <workItem from="1684904135970" duration="879000" />
     </task>
-    <task id="LOCAL-00001" summary="create class student">
-      <created>1684945573641</created>
+    <task id="LOCAL-00001" summary="m">
+      <created>1684904664910</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1684945573641</updated>
+      <updated>1684904664910</updated>
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -150,39 +106,21 @@
                   </entry>
                 </map>
               </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="59" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="77" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="46" />
+                </map>
+              </option>
             </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/Angelo" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/Romina" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/Tadashi" />
-                </option>
-              </RecentGroup>
-            </list>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="create class student" />
-    <option name="LAST_COMMIT_MESSAGE" value="create class student" />
+    <MESSAGE value="m" />
+    <option name="LAST_COMMIT_MESSAGE" value="m" />
   </component>
 </project>
