@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface IChatsService {
     public void insert(Chats chats);
-    List<Chats> list();
+    List<Chats> list()
 }
