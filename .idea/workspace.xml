@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="create class student" />
+    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="create class student">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +79,11 @@
       <workItem from="1684905120482" duration="65000" />
       <workItem from="1684932046726" duration="20000" />
       <workItem from="1684933479621" duration="1418000" />
-      <workItem from="1684945229226" duration="366000" />
+      <workItem from="1684945229226" duration="2108000" />
+      <workItem from="1684947444867" duration="10000" />
+      <workItem from="1684947460883" duration="3000" />
+      <workItem from="1684947482487" duration="6000" />
+      <workItem from="1684947523326" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="create class student">
       <created>1684945573641</created>
