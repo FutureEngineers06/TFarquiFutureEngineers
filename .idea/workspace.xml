@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/serviceimplement/UsersServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/serviceimplement/UsersServiceImplement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/services/IUsersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/services/IUsersService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
