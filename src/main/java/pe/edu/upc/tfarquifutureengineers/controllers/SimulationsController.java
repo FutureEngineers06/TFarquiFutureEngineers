@@ -20,8 +20,8 @@ public class SimulationsController {
     @PostMapping
     public void insert(@RequestBody SimulationsDTO dto){
         ModelMapper m= new ModelMapper();
-        Simulations a= m.map(dto, Simulations.class);
-        sS.insert(a);
+        Simulations s= m.map(dto, Simulations.class);
+        sS.insert(s);
     }
 
     @GetMapping
@@ -31,5 +31,22 @@ public class SimulationsController {
             return m.map(x, SimulationsDTO.class);
         }).collect(Collectors.toList());
     }
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id") Integer id){
+        sS.delete(id);
+    }
 
+    @GetMapping("/{id}")
+    public SimulationsDTO listId(@PathVariable("id") Integer id){
+        ModelMapper m= new ModelMapper();
+        SimulationsDTO dto= m.map(sS.listId(id), SimulationsDTO.class);
+        return dto;
+    }
+
+    @PutMapping
+    public void goUpdate(@RequestBody SimulationsDTO dto){
+        ModelMapper m= new ModelMapper();
+        Simulations s= m.map(dto, Simulations.class);
+        sS.insert(s);
+    }
 }

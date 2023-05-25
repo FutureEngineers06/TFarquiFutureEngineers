@@ -16,11 +16,21 @@ public class SimulationsServiceImplements implements ISimulationsService {
 
     @Override
     public void insert(Simulations simulations) {
-
+        sR.save(simulations);
     }
 
     @Override
     public List<Simulations> list() {
-        return null;
+        return sR.findAll();
+    }
+
+    @Override
+    public void delete(int idSimulation) {
+        sR.deleteById(idSimulation);
+    }
+
+    @Override
+    public Simulations listId(int idSimulation) {
+        return sR.findById(idSimulation).orElse(new Simulations());
     }
 }

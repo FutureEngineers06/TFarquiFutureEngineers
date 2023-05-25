@@ -8,4 +8,9 @@ import java.util.List;
 public interface ISimulationsService {
     public void insert(Simulations simulations);
     List<Simulations> list();
+
+    public void delete(int idSimulation);
+
+    public Simulations listId(int idSimulation);
+
 }
