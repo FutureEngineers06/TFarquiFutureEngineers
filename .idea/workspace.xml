@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/controllers/SimulationsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/dtos/SimulationsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Simulations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/repositories/ISimulationsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/services/ISimulationsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/SimulationsServiceImplements.java" afterDir="false" />
+    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="Swagger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/fua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,19 +42,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TFarquiFutureEngineersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TFarquiFutureEngineers" />
@@ -83,8 +74,23 @@
       <updated>1684820260315</updated>
       <workItem from="1684820261416" duration="428000" />
       <workItem from="1684820801974" duration="7474000" />
-      <workItem from="1684894322760" duration="3318000" />
+      <workItem from="1684894322760" duration="3791000" />
     </task>
+    <task id="LOCAL-00001" summary="Simulations">
+      <created>1684897880160</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684897880161</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Swagger">
+      <created>1684898111599</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684898111599</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +106,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Simulations" />
+    <MESSAGE value="Swagger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swagger" />
   </component>
 </project>
