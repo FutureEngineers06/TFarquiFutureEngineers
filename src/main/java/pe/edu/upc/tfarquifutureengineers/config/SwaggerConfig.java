@@ -8,8 +8,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-//@Configuration nos permite configurar documentación API
-//@EnableSwagger2 habilita la configuración de swagger
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
@@ -17,7 +15,7 @@ public class SwaggerConfig {
     public Docket apiDocket(){
         return new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("pe.edu.upc.tfarquifutureengineers.controllers"))
+                .apis(RequestHandlerSelectors.basePackage("pe.edu.TFarquiFutureEngineersApplication"))
                 .paths(PathSelectors.any())
                 .build();
     }
