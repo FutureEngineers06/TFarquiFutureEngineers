@@ -28,4 +28,20 @@ public class UsersController {
             return m.map(x,UsersDTO.class);
         }).collect(Collectors.toList());
     }
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id") Integer id){
+        sS.delete(id);
+    }
+    @GetMapping("/{id}")
+    public UsersDTO listid(@PathVariable("id")Integer id){
+        ModelMapper m = new ModelMapper();
+        UsersDTO dto = m.map(sS.listid(id),UsersDTO.class);
+        return dto;
+    }
+    @PutMapping
+    public void goUpdate(@RequestBody UsersDTO dto){
+        ModelMapper m = new ModelMapper();
+        Users a = m.map(dto, Users.class);
+        sS.insert(a);
+    }
 }

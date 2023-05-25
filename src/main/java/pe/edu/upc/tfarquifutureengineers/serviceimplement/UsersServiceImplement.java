@@ -21,4 +21,15 @@ public class UsersServiceImplement implements IUsersService {
     public List<Users> list() {
         return sR.findAll();
     }
+
+    @Override
+    public void delete(int idUsers){
+        sR.deleteById(idUsers);
+    }
+
+    @Override
+    public Users listid(int idUsers) {
+        return sR.findById(idUsers).orElse(new Users());
+    }
+
 }
