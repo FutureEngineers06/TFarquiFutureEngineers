@@ -21,6 +21,14 @@ public class Users {
 
     }
 
+    public Users(int idUsers, String rol, String nombre_completo, String correo_electronico, String contraseña) {
+        this.idUsers = idUsers;
+        this.rol = rol;
+        this.nombre_completo = nombre_completo;
+        this.correo_electronico = correo_electronico;
+        this.contraseña = contraseña;
+    }
+
     public int getIdUsers() {
         return idUsers;
     }
