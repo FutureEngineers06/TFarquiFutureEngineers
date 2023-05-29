@@ -30,4 +30,9 @@ public class ChatsServiceImplement implements IChatsService {
         cR.deleteById(idChats);
     }
     //MODIFICAR
+    @Override
+    public Chats listId(int idChats) {
+        return cR.findById(idChats).orElse(new Chats());
+    }
+
 }
