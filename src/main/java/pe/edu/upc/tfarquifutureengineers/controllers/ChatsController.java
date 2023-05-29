@@ -22,11 +22,17 @@ public class ChatsController {
         Chats c = m.map(dto, Chats.class);
         cS.insert(c);
     }
+    //LISTAR
     @GetMapping
     public List<ChatsDTO>list(){
         return cS.list().stream().map(x->{
             ModelMapper m= new ModelMapper();
             return m.map(x,ChatsDTO.class);
         }).collect(Collectors.toList());//retorna un conjunto de elementos dtos
+    }
+    //ELIMINAR
+    @DeleteMapping("/{id}")//ruta para delete de metodología spring
+    public void delete(@PathVariable("id") Integer id){
+        cS.delete(id);
     }
 }

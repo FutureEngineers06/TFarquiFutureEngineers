@@ -19,9 +19,15 @@ public class ChatsServiceImplement implements IChatsService {
 
 
     }
-
+    //LISTAR
     @Override
     public List<Chats> list() {
         return cR.findAll();
     }
+    //delete
+    @Override
+    public void delete(int idChats) {
+        cR.deleteById(idChats);
+    }
+    //MODIFICAR
 }
