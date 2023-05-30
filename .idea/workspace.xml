@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bc1c7d89-55b1-4d3c-88cd-795fc2fd68f4" name="Changes" comment="add method delete -studentcontroller" />
+    <list default="true" id="bc1c7d89-55b1-4d3c-88cd-795fc2fd68f4" name="Changes" comment="add method list to modified -studentserviceimplement">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/controllers/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/controllers/StudentController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +84,7 @@
       <workItem from="1685293943208" duration="4000" />
       <workItem from="1685293969732" duration="167000" />
       <workItem from="1685303574600" duration="600000" />
-      <workItem from="1685418787605" duration="1434000" />
+      <workItem from="1685418787605" duration="1788000" />
     </task>
     <task id="LOCAL-00001" summary="m">
       <created>1684904664910</created>
@@ -119,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685419621697</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="list to modified -studentservice">
+      <created>1685421144697</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685421144697</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add method list to modified -studentserviceimplement">
+      <created>1685421285144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685421285144</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +201,8 @@
     <MESSAGE value="create delete method -studentservice" />
     <MESSAGE value="add method delete -studentserviceimplement" />
     <MESSAGE value="add method delete -studentcontroller" />
-    <option name="LAST_COMMIT_MESSAGE" value="add method delete -studentcontroller" />
+    <MESSAGE value="list to modified -studentservice" />
+    <MESSAGE value="add method list to modified -studentserviceimplement" />
+    <option name="LAST_COMMIT_MESSAGE" value="add method list to modified -studentserviceimplement" />
   </component>
 </project>

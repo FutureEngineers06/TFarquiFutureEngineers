@@ -32,4 +32,10 @@ public class StudentController {
     public void delete(@PathVariable("id") Integer id){
     sS.delete(id);
     }
+    @GetMapping("/{id}")
+    public StudentDTO lisId(@PathVariable("id") Integer id){
+    ModelMapper m = new ModelMapper();
+    StudentDTO dto = m.map(sS.listId(id),StudentDTO.class);
+    return dto;
+    }
 }
