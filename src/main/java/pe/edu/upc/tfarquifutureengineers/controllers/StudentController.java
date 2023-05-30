@@ -38,4 +38,10 @@ public class StudentController {
     StudentDTO dto = m.map(sS.listId(id),StudentDTO.class);
     return dto;
     }
+    @PutMapping
+    public void goUpdate(@RequestBody StudentDTO dto){
+    ModelMapper m= new ModelMapper();
+    Student s = m.map(dto, Student.class);
+    sS.insert(s);
+    }
 }
