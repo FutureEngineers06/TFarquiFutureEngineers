@@ -28,4 +28,8 @@ public class StudentController {
         return m.map(x,StudentDTO.class);
     }).collect(Collectors.toList());
     }
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id") Integer id){
+    sS.delete(id);
+    }
 }
