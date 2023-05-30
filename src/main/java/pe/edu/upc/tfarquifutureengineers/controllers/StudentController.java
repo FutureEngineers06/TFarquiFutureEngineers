@@ -28,4 +28,20 @@ public class StudentController {
         return m.map(x,StudentDTO.class);
     }).collect(Collectors.toList());
     }
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable("id") Integer id){
+    sS.delete(id);
+    }
+    @GetMapping("/{id}")
+    public StudentDTO lisId(@PathVariable("id") Integer id){
+    ModelMapper m = new ModelMapper();
+    StudentDTO dto = m.map(sS.listId(id),StudentDTO.class);
+    return dto;
+    }
+    @PutMapping
+    public void goUpdate(@RequestBody StudentDTO dto){
+    ModelMapper m= new ModelMapper();
+    Student s = m.map(dto, Student.class);
+    sS.insert(s);
+    }
 }

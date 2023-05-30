@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="Swagger">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/config/SwaggerConfig.java" afterDir="false" />
+    <list default="true" id="bc1c7d89-55b1-4d3c-88cd-795fc2fd68f4" name="Changes" comment="compile">
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/tfarquifutureengineers/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/tfarquifutureengineers/config/SwaggerConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,12 +53,13 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Arquitectura de Aplicaciones Web/Trabajo Final Backend Arquitectura de Aplicaciones Web/TFarquiFutureEngineers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "spring.configuration.checksum": "0782bab718b8a6a2303a6ea9620dd663",
     "vue.rearranger.settings.migration": "true"
   }
@@ -75,31 +76,99 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="" />
+      <changelist id="bc1c7d89-55b1-4d3c-88cd-795fc2fd68f4" name="Changes" comment="m" />
       <created>1684820260315</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1684820260315</updated>
       <workItem from="1684820261416" duration="428000" />
       <workItem from="1684820801974" duration="7474000" />
-      <workItem from="1684894322760" duration="3791000" />
-      <workItem from="1684982543468" duration="339000" />
+      <workItem from="1684888020339" duration="16000" />
+      <workItem from="1684904135970" duration="879000" />
+      <workItem from="1685293943208" duration="4000" />
+      <workItem from="1685293969732" duration="167000" />
+      <workItem from="1685303574600" duration="600000" />
+      <workItem from="1685418787605" duration="2552000" />
+      <workItem from="1685479299109" duration="1316000" />
     </task>
-    <task id="LOCAL-00001" summary="Simulations">
-      <created>1684897880160</created>
+    <task id="LOCAL-00001" summary="m">
+      <created>1684904664910</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1684897880161</updated>
+      <updated>1684904664910</updated>
     </task>
-    <task id="LOCAL-00002" summary="Swagger">
-      <created>1684898111599</created>
+    <task id="LOCAL-00002" summary="m">
+      <created>1685293831846</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1684898111599</updated>
+      <updated>1685293831846</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create delete method -studentservice">
+      <created>1685419182250</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685419182250</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add method delete -studentserviceimplement">
+      <created>1685419314339</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685419314339</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add method delete -studentcontroller">
+      <created>1685419621697</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685419621697</updated>
+    </task>
+    <task id="LOCAL-00006" summary="list to modified -studentservice">
+      <created>1685421144697</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685421144697</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add method list to modified -studentserviceimplement">
+      <created>1685421285144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685421285144</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add method list to modified -studentcontroller">
+      <created>1685421592551</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685421592551</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add method goUpdate to modified -studentcontroller">
+      <created>1685421954294</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685421954294</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1685422118131</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685422118131</updated>
+    </task>
+    <task id="LOCAL-00011" summary="compile">
+      <created>1685480782877</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685480782877</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,15 +179,67 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Romina" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="59" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="77" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="46" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/Romina" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/Hilary" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Simulations" />
-    <MESSAGE value="Swagger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Swagger" />
+    <MESSAGE value="m" />
+    <MESSAGE value="create delete method -studentservice" />
+    <MESSAGE value="add method delete -studentserviceimplement" />
+    <MESSAGE value="add method delete -studentcontroller" />
+    <MESSAGE value="list to modified -studentservice" />
+    <MESSAGE value="add method list to modified -studentserviceimplement" />
+    <MESSAGE value="add method list to modified -studentcontroller" />
+    <MESSAGE value="add method goUpdate to modified -studentcontroller" />
+    <MESSAGE value="update" />
+    <MESSAGE value="compile" />
+    <option name="LAST_COMMIT_MESSAGE" value="compile" />
   </component>
 </project>
