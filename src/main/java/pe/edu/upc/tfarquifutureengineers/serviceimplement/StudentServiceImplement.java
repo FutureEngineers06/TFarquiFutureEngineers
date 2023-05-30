@@ -22,4 +22,9 @@ public class StudentServiceImplement implements IStudentService {
     public List<Student> list() {
         return sR.findAll();
     }
+
+    @Override
+    public void delete(int idStudent) {
+        sR.deleteById(idStudent);
+    }
 }
