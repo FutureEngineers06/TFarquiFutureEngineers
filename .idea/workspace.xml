@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-
-    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="Eliminar/Modificar">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/SimulationsServiceImplements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/SimulationsServiceImplements.java" afterDir="false" />
-
-    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-
-    </list>
+    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,19 +21,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/TFarquiFutureEngineersApplication.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/config/SwaggerConfig.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/controllers/SimulationsController.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/dtos/SimulationsDTO.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Chats.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Simulations.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/repositories/ISimulationsRepository.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/services/ISimulationsService.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/SimulationsServiceImplements.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
-
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -61,34 +40,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ASUS/Documents/ARQUIWEB/demo",
-
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "0782bab718b8a6a2303a6ea9620dd663",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
-
-  <component name="RunManager">
-
+  <component name="PropertiesComponent">{
+    &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7329e4bb270bd31d9eb93eaf9fbb63fe&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    }
+    }</component>
   <component name="RunManager" selected="Spring Boot.TFarquiFutureEngineersApplication">
     <configuration name="TFarquiFutureEngineersApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="backendIntelliJ" />
@@ -103,7 +71,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-
     <configuration name="TFarquiFutureEngineersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TFarquiFutureEngineers" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pe.edu.upc.tfarquifutureengineers.TFarquiFutureEngineersApplication" />
@@ -127,64 +94,16 @@
       <updated>1684820260315</updated>
       <workItem from="1684820261416" duration="428000" />
       <workItem from="1684820801974" duration="7474000" />
-
-      <workItem from="1684894322760" duration="3791000" />
-      <workItem from="1684983645835" duration="1613000" />
-      <workItem from="1685054984491" duration="1278000" />
-      <workItem from="1685129265618" duration="1785000" />
-      <workItem from="1685491582391" duration="43000" />
-    </task>
-    <task id="LOCAL-00001" summary="Simulations">
-      <created>1684897880160</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1684897880161</updated>
-
       <workItem from="1684887795997" duration="12000" />
       <workItem from="1684887860632" duration="2000" />
       <workItem from="1684894940280" duration="2932000" />
       <workItem from="1684912866276" duration="435000" />
-      <workItem from="1684913680878" duration="4155000" />
-      <workItem from="1684939593562" duration="628000" />
-      <workItem from="1685487338514" duration="519000" />
-
+      <workItem from="1684913680878" duration="4298000" />
+      <workItem from="1684917998030" duration="30000" />
     </task>
-    <task id="LOCAL-00002" summary="Swagger">
-      <created>1684898111599</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1684898111599</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Eliminar/Modificar">
-      <created>1685058807082</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1685058807082</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Simulations" />
-    <MESSAGE value="Swagger" />
-    <MESSAGE value="Eliminar/Modificar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Eliminar/Modificar" />
   </component>
 </project>
