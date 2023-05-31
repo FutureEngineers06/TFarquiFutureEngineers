@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="Eliminar/Modificar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/SimulationsServiceImplements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/SimulationsServiceImplements.java" afterDir="false" />
+
+    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/TFarquiFutureEngineersApplication.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/config/SwaggerConfig.java" root0="FORCE_HIGHLIGHTING" />
@@ -35,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/services/ISimulationsService.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/SimulationsServiceImplements.java" root0="FORCE_HIGHLIGHTING" />
   </component>
+
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -56,11 +63,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/ASUS/Documents/ARQUIWEB/demo",
+
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,7 +86,24 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+
   <component name="RunManager">
+
+  <component name="RunManager" selected="Spring Boot.TFarquiFutureEngineersApplication">
+    <configuration name="TFarquiFutureEngineersApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="backendIntelliJ" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pe.edu.upc.tfarquifutureengineers.TFarquiFutureEngineersApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pe.edu.upc.tfarquifutureengineers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
     <configuration name="TFarquiFutureEngineersApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TFarquiFutureEngineers" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="pe.edu.upc.tfarquifutureengineers.TFarquiFutureEngineersApplication" />
@@ -77,6 +111,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.TFarquiFutureEngineersApplication (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,6 +127,7 @@
       <updated>1684820260315</updated>
       <workItem from="1684820261416" duration="428000" />
       <workItem from="1684820801974" duration="7474000" />
+
       <workItem from="1684894322760" duration="3791000" />
       <workItem from="1684983645835" duration="1613000" />
       <workItem from="1685054984491" duration="1278000" />
@@ -100,6 +140,15 @@
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1684897880161</updated>
+
+      <workItem from="1684887795997" duration="12000" />
+      <workItem from="1684887860632" duration="2000" />
+      <workItem from="1684894940280" duration="2932000" />
+      <workItem from="1684912866276" duration="435000" />
+      <workItem from="1684913680878" duration="4155000" />
+      <workItem from="1684939593562" duration="628000" />
+      <workItem from="1685487338514" duration="519000" />
+
     </task>
     <task id="LOCAL-00002" summary="Swagger">
       <created>1684898111599</created>
