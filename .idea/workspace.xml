@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="" />
+    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/serviceimplement/ChatsServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/serviceimplement/StudentServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/serviceimplement/TutorsServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/serviceimplement/UsersServiceImplement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/UsersServiceImplements.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-    &quot;keyToString&quot;: {
+  &quot;keyToString&quot;: {
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
@@ -53,10 +60,10 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;7329e4bb270bd31d9eb93eaf9fbb63fe&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0782bab718b8a6a2303a6ea9620dd663&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-    }
-    }</component>
+  }
+}</component>
   <component name="RunManager" selected="Spring Boot.TFarquiFutureEngineersApplication">
     <configuration name="TFarquiFutureEngineersApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="backendIntelliJ" />
@@ -100,6 +107,8 @@
       <workItem from="1684912866276" duration="435000" />
       <workItem from="1684913680878" duration="4298000" />
       <workItem from="1684917998030" duration="30000" />
+      <workItem from="1686175866627" duration="58000" />
+      <workItem from="1686176423591" duration="382000" />
     </task>
     <servers />
   </component>
