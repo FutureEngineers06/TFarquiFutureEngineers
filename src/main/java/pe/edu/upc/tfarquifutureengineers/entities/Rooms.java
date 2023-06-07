@@ -11,18 +11,18 @@ public class Rooms {
     private Integer codigo;
     @Column(name = "Nombre",length = 50, nullable = false)
     private String Nombre;
-    @Column(name = "nHojasBook", nullable = false)
+    @Column(name = "cantidad_alumnos", nullable = false)
     private Integer cantidad_alumnos;
     @ManyToOne
-    @JoinColumn(name = "idTutor")
+    @JoinColumn(name = "Tutores_id")
     private Tutors Tutores_id;//FOREING KEY DE TUTORS
     @ManyToOne
-    @JoinColumn(name = "idUsers")
+    @JoinColumn(name = "Tutores_Users_user_id")
     private Users Tutores_Users_user_id;//FOREING KEY de USERS
     @Column(name = "status", nullable = false)
     private boolean status;
     @ManyToOne
-    @JoinColumn(name = "idChats")
+    @JoinColumn(name = "Chats_id")
     private Chats Chats_id;//FOREING KEY DE CHATS
 
     public Rooms() {
