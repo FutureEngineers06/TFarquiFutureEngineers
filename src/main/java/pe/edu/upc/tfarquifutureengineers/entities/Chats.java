@@ -3,7 +3,7 @@ package pe.edu.upc.tfarquifutureengineers.entities;
 import javax.persistence.*;
 import java.time.LocalDate;
 @Entity
-@Table(name = "Chats")
+@Table(name = "chats")
 
 public class Chats {
 
