@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController//crear un servicio de tipo web- intercambio de info formato json
-@RequestMapping("/chats")//ruta del controlador
+@RequestMapping("/Chats")//ruta del controlador
 public class ChatsController {
     @Autowired
     private IChatsService cS;
