@@ -3,7 +3,7 @@ package pe.edu.upc.tfarquifutureengineers.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name="Rooms")//el nombre de la base de datos
+@Table(name="rooms")//el nombre de la base de datos
 public class Rooms {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
