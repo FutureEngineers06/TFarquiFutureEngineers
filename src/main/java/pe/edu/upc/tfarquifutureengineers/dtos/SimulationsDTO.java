@@ -3,7 +3,7 @@ package pe.edu.upc.tfarquifutureengineers.dtos;
 import javax.persistence.Column;
 
 public class SimulationsDTO {
-    private int idSimulation;
+    private int idSimulations;
 
     private String nameCurso;
 
@@ -13,12 +13,12 @@ public class SimulationsDTO {
 
     private String duracionHoras;
 
-    public int getIdSimulation() {
-        return idSimulation;
+    public int getIdSimulations() {
+        return idSimulations;
     }
 
-    public void setIdSimulation(int idSimulation) {
-        this.idSimulation = idSimulation;
+    public void setIdSimulations(int idSimulations) {
+        this.idSimulations = idSimulations;
     }
 
     public String getNameCurso() {

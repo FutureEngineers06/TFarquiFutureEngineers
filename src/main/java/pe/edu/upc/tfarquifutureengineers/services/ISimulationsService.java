@@ -9,8 +9,8 @@ public interface ISimulationsService {
     public void insert(Simulations simulations);
     List<Simulations> list();
 
-    public void delete(int idSimulation);
+    public void delete(int idSimulations);
 
-    public Simulations listId(int idSimulation);
+    public Simulations listId(int idSimulations);
 
 }
