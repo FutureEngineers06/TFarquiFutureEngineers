@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1960cf1c-bf52-4c34-8ec5-dbd9c536ced7" name="Changes" comment="Tests" />
+    <list default="true" id="1960cf1c-bf52-4c34-8ec5-dbd9c536ced7" name="Changes" comment="Professions">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/controllers/ProfessionsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/dtos/ProfessionsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Professions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/repositories/IProfessionsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/services/IProfessionsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/IProfessionsServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +95,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="" />
+      <changelist id="1960cf1c-bf52-4c34-8ec5-dbd9c536ced7" name="Changes" comment="Tests" />
       <created>1684820260315</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -103,6 +111,7 @@
       <workItem from="1686175866627" duration="58000" />
       <workItem from="1686176423591" duration="382000" />
       <workItem from="1686177005775" duration="334000" />
+      <workItem from="1686383739748" duration="1234000" />
     </task>
     <task id="LOCAL-00001" summary="Tests">
       <created>1686347232660</created>
@@ -131,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exams" />
     <MESSAGE value="Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tests" />
+    <MESSAGE value="Professions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Professions" />
   </component>
 </project>
