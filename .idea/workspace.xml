@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="">
+    <list default="true" id="3c43aeec-3ec4-4d98-95e3-72cba2f2d406" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/serviceimplement/ChatsServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/serviceimplement/StudentServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/serviceimplement/TutorsServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/serviceimplement/UsersServiceImplement.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/UsersServiceImplements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/controllers/ChatsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/controllers/ChatsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Rooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Rooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/repositories/ITutorsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/repositories/ITutorsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/repositories/IUsersRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/repositories/IUsersRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/TutorsServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/TutorsServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/tfarquifutureengineers/entities/Users.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/tfarquifutureengineers/entities/Users.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/tfarquifutureengineers/repositories/ITutorsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/tfarquifutureengineers/repositories/ITutorsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/tfarquifutureengineers/repositories/IUsersRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/tfarquifutureengineers/repositories/IUsersRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pe/edu/upc/tfarquifutureengineers/servicesimplement/TutorsServiceImplement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pe/edu/upc/tfarquifutureengineers/servicesimplement/TutorsServiceImplement.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +61,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/FUTURO DISCO D/CICLO 8/ARQUITECTURA DE APLICACIONES WEB/S9-API INTELLIJ/S12-SEGURIDAD/demoAuthor&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -94,7 +100,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0125f203-f4da-416f-9449-4af6e31c597e" name="Changes" comment="" />
+      <changelist id="3c43aeec-3ec4-4d98-95e3-72cba2f2d406" name="Changes" comment="" />
       <created>1684820260315</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -109,6 +115,9 @@
       <workItem from="1684917998030" duration="30000" />
       <workItem from="1686175866627" duration="58000" />
       <workItem from="1686176423591" duration="382000" />
+      <workItem from="1686191191105" duration="4358000" />
+      <workItem from="1686261613786" duration="2000" />
+      <workItem from="1686437289913" duration="3000" />
     </task>
     <servers />
   </component>
