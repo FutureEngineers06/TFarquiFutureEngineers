@@ -30,8 +30,8 @@ public class SimulationsServiceImplements implements ISimulationsService {
     }
 
     @Override
-    public Simulations listId(int idSimulation) {
+    public Simulations listId(int idSimulations) {
 
-        return sR.findById(idSimulation).orElse(new Simulations());
+        return sR.findById(idSimulations).orElse(new Simulations());
     }
 }
