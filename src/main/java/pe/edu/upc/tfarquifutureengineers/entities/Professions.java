@@ -13,7 +13,7 @@ public class Professions {
     private String nombre;
 
     @Column(name="información", length = 100, nullable = false)
-    private String información;
+    private String informacion;
 
     @Column(name="duracion", nullable = false)
     private Integer duracion;
@@ -32,10 +32,10 @@ public class Professions {
     public Professions() {
     }
 
-    public Professions(int idProfessions, String nombre, String información, Integer duracion, String campo_laboral, Simulations simulation, Tests tests) {
+    public Professions(int idProfessions, String nombre, String informacion, Integer duracion, String campo_laboral, Simulations simulation, Tests tests) {
         this.idProfessions = idProfessions;
         this.nombre = nombre;
-        this.información = información;
+        this.informacion = informacion;
         this.duracion = duracion;
         this.campo_laboral = campo_laboral;
         this.simulation = simulation;
@@ -58,12 +58,12 @@ public class Professions {
         this.nombre = nombre;
     }
 
-    public String getInformación() {
-        return información;
+    public String getInformacion() {
+        return informacion;
     }
 
-    public void setInformación(String información) {
-        this.información = información;
+    public void setInformacion(String informacion) {
+        this.informacion = informacion;
     }
 
     public Integer getDuracion() {

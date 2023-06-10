@@ -16,7 +16,7 @@ public class TestsDTO {
 
     private String resultado;
 
-    private Student student;
+    private Student students_id;
 
     public int getIdTests() {
         return idTests;
@@ -51,10 +51,10 @@ public class TestsDTO {
     }
 
     public Student getStudent() {
-        return student;
+        return students_id;
     }
 
-    public void setStudent(Student student) {
-        this.student = student;
+    public void setStudent(Student students_id) {
+        this.students_id = students_id;
     }
 }

@@ -9,7 +9,7 @@ public class ProfessionsDTO {
 
     private String nombre;
 
-    private String información;
+    private String informacion;
 
     private Integer duracion;
 
@@ -35,12 +35,12 @@ public class ProfessionsDTO {
         this.nombre = nombre;
     }
 
-    public String getInformación() {
-        return información;
+    public String getInformacion() {
+        return informacion;
     }
 
-    public void setInformación(String información) {
-        this.información = información;
+    public void setInformacion(String informacion) {
+        this.informacion = informacion;
     }
 
     public Integer getDuracion() {
