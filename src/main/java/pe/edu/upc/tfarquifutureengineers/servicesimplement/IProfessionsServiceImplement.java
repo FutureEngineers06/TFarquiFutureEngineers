@@ -1,12 +1,14 @@
 package pe.edu.upc.tfarquifutureengineers.servicesimplement;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import pe.edu.upc.tfarquifutureengineers.entities.Professions;
 import pe.edu.upc.tfarquifutureengineers.repositories.IProfessionsRepository;
 import pe.edu.upc.tfarquifutureengineers.services.IProfessionsService;
 
 import java.util.List;
 
+@Service
 public class IProfessionsServiceImplement implements IProfessionsService {
 
     @Autowired
