@@ -8,7 +8,7 @@ public class Simulations {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idSimulation;
+    private int idSimulations;
 
     @Column(name = "nameCurso", length = 50, nullable = false)
     private String nameCurso;
@@ -24,20 +24,20 @@ public class Simulations {
 
     public Simulations(){}
 
-    public Simulations(int idSimulation, String nameCurso, String planCurso, String metodologiaCurso, String duracionHoras) {
-        this.idSimulation = idSimulation;
+    public Simulations(int idSimulations, String nameCurso, String planCurso, String metodologiaCurso, String duracionHoras) {
+        this.idSimulations = idSimulations;
         this.nameCurso= nameCurso;
         this.planCurso= planCurso;
         this.metodologiaCurso=metodologiaCurso;
         this.duracionHoras= duracionHoras;
     }
 
-    public int getIdSimulation() {
-        return idSimulation;
+    public int getIdSimulations() {
+        return idSimulations;
     }
 
-    public void setIdSimulation(int idSimulation) {
-        this.idSimulation = idSimulation;
+    public void setIdSimulations(int idSimulations) {
+        this.idSimulations = idSimulations;
     }
 
     public String getNameCurso() {

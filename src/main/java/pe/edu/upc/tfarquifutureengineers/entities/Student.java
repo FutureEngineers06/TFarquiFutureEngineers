@@ -7,36 +7,32 @@ import javax.persistence.*;
 public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idStudent;
-    @Column(name = "colegio",length = 60,nullable = false)
+    private int idStudents;
+    @Column(name = "colegio", length = 60, nullable = false)
     private String colegio;
     @Column(name = "edad", nullable = false)
     private int edad;
-    @Column(name = "users_user_id",nullable = false)
-    private int users_user_id;
-    @Column(name = "membresia_id",nullable = false)
-    private int membresia_id;
-    @Column(name="sala_id",nullable = false)
-    private int sala_id;
+
+    @ManyToOne
+    @JoinColumn(name = "idMemberships")
+    private Memberships memberships_id;
 
     public Student() {
     }
 
-    public Student(int idStudent, String colegio, int edad, int users_user_id, int membresia_id, int sala_id) {
-        this.idStudent = idStudent;
+    public Student(int idStudents, String colegio, int edad, Memberships memberships_id) {
+        this.idStudents = idStudents;
         this.colegio = colegio;
         this.edad = edad;
-        this.users_user_id = users_user_id;
-        this.membresia_id = membresia_id;
-        this.sala_id = sala_id;
+        this.memberships_id = memberships_id;
     }
 
-    public int getIdStudent() {
-        return idStudent;
+    public int getIdStudents() {
+        return idStudents;
     }
 
-    public void setIdStudent(int idStudent) {
-        this.idStudent = idStudent;
+    public void setIdStudents(int idStudents) {
+        this.idStudents = idStudents;
     }
 
     public String getColegio() {
@@ -55,27 +51,11 @@ public class Student {
         this.edad = edad;
     }
 
-    public int getUsers_user_id() {
-        return users_user_id;
+    public Memberships getMemberships() {
+        return memberships_id;
     }
 
-    public void setUsers_user_id(int users_user_id) {
-        this.users_user_id = users_user_id;
-    }
-
-    public int getMembresia_id() {
-        return membresia_id;
-    }
-
-    public void setMembresia_id(int membresia_id) {
-        this.membresia_id = membresia_id;
-    }
-
-    public int getSala_id() {
-        return sala_id;
-    }
-
-    public void setSala_id(int sala_id) {
-        this.sala_id = sala_id;
+    public void setMemberships(Memberships memberships_id) {
+        this.memberships_id = memberships_id;
     }
 }
