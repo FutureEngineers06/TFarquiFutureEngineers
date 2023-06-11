@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1960cf1c-bf52-4c34-8ec5-dbd9c536ced7" name="Changes" comment="Cambios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/IProfessionsServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/IProfessionsServiceImplement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/TutorsServiceImplement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/servicesimplement/TutorsServiceImplement.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/TrabajoWeb/TFarquiFutureEngineers",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "0782bab718b8a6a2303a6ea9620dd663",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/TrabajoWeb/TFarquiFutureEngineers&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0782bab718b8a6a2303a6ea9620dd663&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -117,6 +117,7 @@
       <workItem from="1686383739748" duration="3976000" />
       <workItem from="1686416429581" duration="954000" />
       <workItem from="1686421041170" duration="1384000" />
+      <workItem from="1686463798482" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="Tests">
       <created>1686347232660</created>
