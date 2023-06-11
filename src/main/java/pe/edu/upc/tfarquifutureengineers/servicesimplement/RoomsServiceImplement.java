@@ -21,4 +21,14 @@ public class RoomsServiceImplement implements IRoomsService {
     public List<Rooms> list() {
         return rR.findAll();
     }
+
+    @Override
+    public void delete(int idRooms) {
+        rR.deleteById(idRooms);
+    }
+
+    @Override
+    public Rooms listId(int idRooms) {
+        return rR.findById(idRooms).orElse(new Rooms());
+    }
 }
