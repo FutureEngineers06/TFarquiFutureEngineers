@@ -20,4 +20,6 @@ public class TutorsDTO {
     public void setEspecializacion(String especializacion) {
         this.especializacion = especializacion;
     }
+
+
 }
