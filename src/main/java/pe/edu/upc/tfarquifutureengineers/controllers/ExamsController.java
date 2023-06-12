@@ -2,6 +2,7 @@ package pe.edu.upc.tfarquifutureengineers.controllers;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import pe.edu.upc.tfarquifutureengineers.dtos.ExamsDTO;
 import pe.edu.upc.tfarquifutureengineers.dtos.SimulationsDTO;
@@ -26,6 +27,7 @@ public class ExamsController {
     }
 
     @GetMapping
+    @PreAuthorize("hasAuthority('ADMIN')")
     public List<ExamsDTO> list(){
         return eS.listar().stream().map(x->{
             ModelMapper m= new ModelMapper();

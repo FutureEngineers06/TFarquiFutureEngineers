@@ -2,6 +2,7 @@ package pe.edu.upc.tfarquifutureengineers.controllers;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import pe.edu.upc.tfarquifutureengineers.dtos.ChatsDTO;
 import pe.edu.upc.tfarquifutureengineers.entities.Chats;
@@ -24,6 +25,7 @@ public class ChatsController {
     }
     //LISTAR
     @GetMapping
+    @PreAuthorize("hasAuthority('ADMIN')")
     public List<ChatsDTO>list(){
         return cS.list().stream().map(x->{
             ModelMapper m= new ModelMapper();
