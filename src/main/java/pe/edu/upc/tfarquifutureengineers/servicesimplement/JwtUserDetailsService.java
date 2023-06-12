@@ -12,13 +12,13 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import pe.edu.upc.tfarquifutureengineers.entities.Users;
-import pe.edu.upc.tfarquifutureengineers.repositories.UserRepository;
+import pe.edu.upc.tfarquifutureengineers.repositories.IUsersRepository;
 
 //Clase 2
 @Service
 public class JwtUserDetailsService implements UserDetailsService {
     @Autowired
-    private UserRepository repo;
+    private IUsersRepository repo;
 
     /*@Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
@@ -34,7 +34,7 @@ public class JwtUserDetailsService implements UserDetailsService {
     }*/
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        Users user = repo.findByUsername(username);
+        Users user = repo.findBynombre_completo(username);
 
         if(user == null) {
             throw new UsernameNotFoundException(String.format("User not exists", username));
@@ -46,7 +46,7 @@ public class JwtUserDetailsService implements UserDetailsService {
             roles.add(new SimpleGrantedAuthority(rol.getRol()));
         });
 
-        UserDetails ud = new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), user.getEnabled(), true, true, true, roles);
+        UserDetails ud = new org.springframework.security.core.userdetails.User(user.getNombre_completo(), user.getContraseña(), user.getEnabled(), true, true, true, roles);
 
         return ud;
     }

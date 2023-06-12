@@ -1,6 +1,7 @@
 package pe.edu.upc.tfarquifutureengineers.entities;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "users")
@@ -10,12 +11,22 @@ public class Users {
     private int idUsers;
     @Column(name = "rol", length = 20,nullable = false)
     private String rol;
-    @Column(name = "nombre_completo", length = 100,nullable = false)
+    //@Column(name = "nombre_completo", length = 100,nullable = false)
+    @Column(name = "nombre_completo", length = 100,unique = true)
     private String nombre_completo;
     @Column(name = "correo_electronico", length = 100,nullable = false)
     private String correo_electronico;
     @Column(name = "contraseña", length = 150,nullable = false)
     private String contraseña;
+
+    /////
+    private Boolean enabled;
+    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+
+    @JoinColumn(name = "idUsers")//mirar si idUsers da problemas-sino usar user_id
+    //@JoinColumn(name = "user_id")//mirar si user_id da problemas-sino usar idUsers
+    private List<Role> roles;
+    /////
 
     public Users() {
 
@@ -68,4 +79,22 @@ public class Users {
     public void setContraseña(String contraseña) {
         this.contraseña = contraseña;
     }
+
+////////////
+public Boolean getEnabled() {
+    return enabled;
+}
+
+    public void setEnabled(Boolean enabled) {
+        this.enabled = enabled;
+    }
+
+    public List<Role> getRoles() {
+        return roles;
+    }
+
+    public void setRoles(List<Role> roles) {
+        this.roles = roles;
+    }
+    ////////////////////
 }

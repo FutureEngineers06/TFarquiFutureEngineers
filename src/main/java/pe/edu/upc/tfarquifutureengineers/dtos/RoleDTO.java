@@ -1,6 +1,6 @@
 package pe.edu.upc.tfarquifutureengineers.dtos;
 
-//import pe.edu.upc.tfarquifutureengineers.entities.Users;
+import pe.edu.upc.tfarquifutureengineers.entities.Users;
 //import pe.edu.upc.tfarquifutureengineers.entities.User;
 
 public class RoleDTO {

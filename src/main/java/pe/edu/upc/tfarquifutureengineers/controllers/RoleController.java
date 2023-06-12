@@ -15,7 +15,7 @@ import org.springframework.web.bind.support.SessionStatus;
 
 import pe.edu.upc.tfarquifutureengineers.entities.Role;
 import pe.edu.upc.tfarquifutureengineers.services.IRoleService;
-import pe.edu.upc.tfarquifutureengineers.services.IUserService;
+import pe.edu.upc.tfarquifutureengineers.services.IUsersService;
 
 
 @Controller
@@ -24,7 +24,7 @@ import pe.edu.upc.tfarquifutureengineers.services.IUserService;
 public class RoleController {
 
     @Autowired
-    private IUserService uService;
+    private IUsersService uService;
     @Autowired
     private IRoleService rService;
 

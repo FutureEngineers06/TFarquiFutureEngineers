@@ -6,7 +6,10 @@ import java.util.List;
 
 public interface IUsersService {
 
-    public void insert(Users users);
+    //public void insert(Users users);
+    /////////////////
+    public Integer insert(Users user);
+    /////////////////
     List<Users> list();
     public void delete(int idUsers);
     public Users listid(int idUsers);
