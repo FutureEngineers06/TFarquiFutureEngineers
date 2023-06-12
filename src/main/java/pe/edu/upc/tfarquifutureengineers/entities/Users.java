@@ -21,10 +21,10 @@ public class Users {
 
     /////
     private Boolean enabled;
-    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 
-    @JoinColumn(name = "idUsers")//mirar si idUsers da problemas-sino usar user_id
     //@JoinColumn(name = "user_id")//mirar si user_id da problemas-sino usar idUsers
+    @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @JoinColumn(name = "idUsers")//mirar si idUsers da problemas-sino usar user_id
     private List<Role> roles;
     /////
 
