@@ -30,36 +30,36 @@ public class UsersController {
     ////////////////////////////////
     @Autowired
     private IUsersService uService;
-    @PostMapping
-    public void insert(@RequestBody UsersDTO dto){
-        ModelMapper m = new ModelMapper();
-        Users s = m.map(dto,Users.class);
-        uService.insert(s);
-    }
-    @GetMapping
-    @PreAuthorize("hasAuthority('ADMIN')")
-    public List<UsersDTO> list(){
-        return uService.list().stream().map(x->{
-            ModelMapper m = new ModelMapper();
-            return m.map(x,UsersDTO.class);
-        }).collect(Collectors.toList());
-    }
-    @DeleteMapping("/{id}")
-    public void delete(@PathVariable("id") Integer id){
-        uService.delete(id);
-    }
-    @GetMapping("/{id}")
-    public UsersDTO listid(@PathVariable("id")Integer id){
-        ModelMapper m = new ModelMapper();
-        UsersDTO dto = m.map(uService.listid(id),UsersDTO.class);
-        return dto;
-    }
-    @PutMapping
-    public void goUpdate(@RequestBody UsersDTO dto){
-        ModelMapper m = new ModelMapper();
-        Users a = m.map(dto, Users.class);
-        uService.insert(a);
-    }
+    //@PostMapping
+    //public void insert(@RequestBody UsersDTO dto){
+    //    ModelMapper m = new ModelMapper();
+    //    Users s = m.map(dto,Users.class);
+    //    uService.insert(s);
+    //}
+    //@GetMapping
+    //@PreAuthorize("hasAuthority('ADMIN')")
+    //public List<UsersDTO> list(){
+    //    return uService.list().stream().map(x->{
+    //        ModelMapper m = new ModelMapper();
+    //        return m.map(x,UsersDTO.class);
+    //    }).collect(Collectors.toList());
+    //}
+    //@DeleteMapping("/{id}")
+    //public void delete(@PathVariable("id") Integer id){
+   //     uService.delete(id);
+    //}
+    ///@GetMapping("/{id}")
+    //public UsersDTO listid(@PathVariable("id")Integer id){
+   ////     ModelMapper m = new ModelMapper();
+    //    UsersDTO dto = m.map(uService.listid(id),UsersDTO.class);
+    //    return dto;
+    //}
+   // @PutMapping
+    //public void goUpdate(@RequestBody UsersDTO dto){
+    //    ModelMapper m = new ModelMapper();
+    //    Users a = m.map(dto, Users.class);
+    //    uService.insert(a);
+    //}
 
     ///////////////////////////////////
     @PostMapping("/save")
@@ -68,8 +68,8 @@ public class UsersController {
         if (result.hasErrors()) {
             return "usersecurity/user";
         } else {
-            String bcryptPassword = bcrypt.encode(user.getContraseña());
-            user.setContraseña(bcryptPassword);
+            String bcryptPassword = bcrypt.encode(user.getPassword());
+            user.setPassword(bcryptPassword);
             int rpta = uService.insert(user);
             if (rpta > 0) {
                 model.addAttribute("mensaje", "Ya existe");

@@ -9,18 +9,18 @@ import org.springframework.transaction.annotation.Transactional;
 import pe.edu.upc.tfarquifutureengineers.entities.Users;
 @Repository
 public interface IUsersRepository extends JpaRepository<Users,Integer> {
-    public Users findBynombre_completo(String nombre_completo);
+    public Users findByUsername(String username);
 
     //BUSCAR POR NOMBRE
-    @Query("select count(u.nombre_completo) from Users u where u.nombre_completo =:nombre_completo")
-    public int buscarnombre_completo(@Param("nombre_completo") String nombre);
+    @Query("select count(u.username) from Users u where u.username =:username")
+    public int buscarUsername(@Param("username") String nombre);
 
 
     //INSERTAR ROLES
     @Transactional
     @Modifying
     @Query(value = "insert into roles (rol, user_id) VALUES (:rol, :user_id)", nativeQuery = true)
-    public void insRol(@Param("rol") String authority, @Param("idUsers") Long user_id);
+    public void insRol(@Param("rol") String authority, @Param("user_id") Long user_id);
     //public void insRol(@Param("rol") String authority, @Param("user_id") Long user_id);
 //mirar si user_id da problemas-sino usar idUsers
 }

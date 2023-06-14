@@ -1,30 +1,31 @@
 package pe.edu.upc.tfarquifutureengineers.entities;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 @Entity
 @Table(name = "users")
-public class Users {
+public class Users implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idUsers;
+    private long idUsers;
     @Column(name = "rol", length = 20,nullable = false)
     private String rol;
     //@Column(name = "nombre_completo", length = 100,nullable = false)
-    @Column(name = "nombre_completo", length = 100,unique = true)
-    private String nombre_completo;//username
+    @Column(name = "username", length = 100,unique = true)
+    private String username;//username
     @Column(name = "correo_electronico", length = 100,nullable = false)
     private String correo_electronico;
-    @Column(name = "contraseña", length = 150,nullable = false)
-    private String contraseña;//password
+    @Column(name = "password", length = 150,nullable = false)
+    private String password;//password
 
     /////
     private Boolean enabled;
 
     //@JoinColumn(name = "user_id")//mirar si user_id da problemas-sino usar idUsers
     @OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    @JoinColumn(name = "idUsers")//mirar si idUsers da problemas-sino usar user_id
+    @JoinColumn(name = "user_id")//mirar si idUsers da problemas-sino usar user_id
     private List<Role> roles;
     /////
 
@@ -32,19 +33,21 @@ public class Users {
 
     }
 
-    public Users(int idUsers, String rol, String nombre_completo, String correo_electronico, String contraseña) {
+    public Users(long idUsers, String rol, String username, String correo_electronico, String password, Boolean enabled, List<Role> roles) {
         this.idUsers = idUsers;
         this.rol = rol;
-        this.nombre_completo = nombre_completo;
+        this.username = username;
         this.correo_electronico = correo_electronico;
-        this.contraseña = contraseña;
+        this.password = password;
+        this.enabled = enabled;
+        this.roles = roles;
     }
 
-    public int getIdUsers() {
+    public long getIdUsers() {
         return idUsers;
     }
 
-    public void setIdUsers(int idUsers) {
+    public void setIdUsers(long idUsers) {
         this.idUsers = idUsers;
     }
 
@@ -56,12 +59,12 @@ public class Users {
         this.rol = rol;
     }
 
-    public String getNombre_completo() {
-        return nombre_completo;
+    public String getUsername() {
+        return username;
     }
 
-    public void setNombre_completo(String nombre_completo) {
-        this.nombre_completo = nombre_completo;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getCorreo_electronico() {
@@ -72,18 +75,17 @@ public class Users {
         this.correo_electronico = correo_electronico;
     }
 
-    public String getContraseña() {
-        return contraseña;
+    public String getPassword() {
+        return password;
     }
 
-    public void setContraseña(String contraseña) {
-        this.contraseña = contraseña;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-////////////
-public Boolean getEnabled() {
-    return enabled;
-}
+    public Boolean getEnabled() {
+        return enabled;
+    }
 
     public void setEnabled(Boolean enabled) {
         this.enabled = enabled;
@@ -96,5 +98,4 @@ public Boolean getEnabled() {
     public void setRoles(List<Role> roles) {
         this.roles = roles;
     }
-    ////////////////////
 }
