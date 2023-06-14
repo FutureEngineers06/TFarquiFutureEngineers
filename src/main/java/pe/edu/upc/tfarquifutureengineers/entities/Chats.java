@@ -1,6 +1,7 @@
 package pe.edu.upc.tfarquifutureengineers.entities;
 
 import javax.persistence.*;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 @Entity
 @Table(name = "chats")
@@ -15,9 +16,10 @@ public class Chats {
     @Column(name = "mensaje_tutor", length = 60,nullable = false)
     private String mensaje_tutor;
     @Column(name = "fecha_envio")
-    private LocalDate fecha_envio;
+    private LocalDate fecha_envio; //SimpleDateFormat
+
     @Column(name = "fecha_recepcion")
-    private LocalDate fecha_recepcion;
+    private LocalDate fecha_recepcion; //SimpleDateFormat
 
     public Chats() {
     }
