@@ -12,15 +12,15 @@ public class UsersServiceImplement implements IUsersService {
     @Autowired
     private IUsersRepository sR;
 
-    @Override
-    public void insert(Users users) {
-        sR.save(users);
-    }
+    //@Override
+    //public void insert(Users users) {
+    //    sR.save(users);
+    //}
 
-    @Override
-    public List<Users> list() {
-        return sR.findAll();
-    }
+    //@Override
+    //public List<Users> list() {
+    //    return sR.findAll();
+    //}
 
     @Override
     public void delete(int idUsers){
@@ -32,4 +32,20 @@ public class UsersServiceImplement implements IUsersService {
         return sR.findById(idUsers).orElse(new Users());
     }
 
+    //////////////////////////////
+    @Override
+    public Integer insert(Users user) {
+        int rpta = sR.buscarnombre_completo(user.getNombre_completo());
+        if (rpta == 0) {
+            sR.save(user);
+        }
+        return rpta;
+    }
+
+    @Override
+    public List<Users> list() {
+        // TODO Auto-generated method stub
+        return sR.findAll();
+    }
+    //////////////////////////////
 }

@@ -8,9 +8,9 @@ import pe.edu.upc.tfarquifutureengineers.repositories.ITutorsRepository;
 import pe.edu.upc.tfarquifutureengineers.services.ITutorsService;
 
 import java.util.List;
-@Service
-public class TutorsServiceImplement implements ITutorsService {
 
+@Service
+public class TutorsServiceImplement implements ITutorsService{
     @Autowired
     private ITutorsRepository tR;
 

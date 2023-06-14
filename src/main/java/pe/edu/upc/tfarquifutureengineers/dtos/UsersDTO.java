@@ -1,6 +1,10 @@
 package pe.edu.upc.tfarquifutureengineers.dtos;
 
 
+import pe.edu.upc.tfarquifutureengineers.entities.Role;
+
+import java.util.List;
+
 public class UsersDTO {
 
     private int idUsers;
@@ -8,6 +12,10 @@ public class UsersDTO {
     private String nombre_completo;
     private String correo_electronico;
     private String contraseña;
+
+    private Boolean enabled;
+
+    private List<Role> roles;
 
     public int getIdUsers() {
         return idUsers;

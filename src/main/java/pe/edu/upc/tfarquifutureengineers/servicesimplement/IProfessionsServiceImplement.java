@@ -7,7 +7,6 @@ import pe.edu.upc.tfarquifutureengineers.repositories.IProfessionsRepository;
 import pe.edu.upc.tfarquifutureengineers.services.IProfessionsService;
 
 import java.util.List;
-
 @Service
 public class IProfessionsServiceImplement implements IProfessionsService {
 

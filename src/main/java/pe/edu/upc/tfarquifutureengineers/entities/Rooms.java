@@ -14,15 +14,15 @@ public class Rooms {
     @Column(name = "cantidad_alumnos", nullable = false)
     private Integer cantidad_alumnos;
     @ManyToOne
-    @JoinColumn(name = "Tutores_id")
+    @JoinColumn(name = "idTutors")
     private Tutors Tutores_id;//FOREING KEY DE TUTORS
     @ManyToOne
-    @JoinColumn(name = "Tutores_Users_user_id")
+    @JoinColumn(name = "idUsers")
     private Users Tutores_Users_user_id;//FOREING KEY de USERS
     @Column(name = "status", nullable = false)
     private boolean status;
     @ManyToOne
-    @JoinColumn(name = "Chats_id")
+    @JoinColumn(name = "idChats")
     private Chats Chats_id;//FOREING KEY DE CHATS
 
     public Rooms() {
