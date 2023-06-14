@@ -22,15 +22,15 @@ public class UsersServiceImplement implements IUsersService {
     //    return sR.findAll();
     //}
 
-    //@Override
-    //public void delete(int idUsers){
-    //    sR.deleteById(idUsers);
-    //}
+    @Override
+    public void delete(int idUsers){
+        sR.deleteById(idUsers);
+    }
 
-    //@Override
-    //public Users listid(int idUsers) {
-    //    return sR.findById(idUsers).orElse(new Users());
-   // }
+    @Override
+    public Users listid(int idUsers) {
+        return sR.findById(idUsers).orElse(new Users());
+    }
 
     //////////////////////////////
     @Override

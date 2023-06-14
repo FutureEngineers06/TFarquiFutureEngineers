@@ -11,6 +11,6 @@ public interface IUsersService {
     public Integer insert(Users user);
     /////////////////
     List<Users> list();
-    //public void delete(int idUsers);
-    //public Users listid(int idUsers);
+    public void delete(int idUsers);
+    public Users listid(int idUsers);
 }
