@@ -1,4 +1,4 @@
-package pe.edu.upc.demoauthor.controller;
+package pe.edu.upc.tfarquifutureengineers.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
