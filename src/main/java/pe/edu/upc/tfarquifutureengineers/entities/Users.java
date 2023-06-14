@@ -13,11 +13,11 @@ public class Users {
     private String rol;
     //@Column(name = "nombre_completo", length = 100,nullable = false)
     @Column(name = "nombre_completo", length = 100,unique = true)
-    private String nombre_completo;
+    private String nombre_completo;//username
     @Column(name = "correo_electronico", length = 100,nullable = false)
     private String correo_electronico;
     @Column(name = "contraseña", length = 150,nullable = false)
-    private String contraseña;
+    private String contraseña;//password
 
     /////
     private Boolean enabled;
