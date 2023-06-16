@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1960cf1c-bf52-4c34-8ec5-dbd9c536ced7" name="Changes" comment="Cambios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/dtos/ChatsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/dtos/ChatsDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Chats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Chats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/dtos/TutorsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/dtos/TutorsDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Tutors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/edu/upc/tfarquifutureengineers/entities/Tutors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,7 @@
       <workItem from="1686463967996" duration="44000" />
       <workItem from="1686464029860" duration="322000" />
       <workItem from="1686520813375" duration="2213000" />
-      <workItem from="1686890238107" duration="3848000" />
+      <workItem from="1686890238107" duration="5911000" />
     </task>
     <servers />
   </component>
