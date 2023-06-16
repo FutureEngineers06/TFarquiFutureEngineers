@@ -1,7 +1,9 @@
 package pe.edu.upc.tfarquifutureengineers.dtos;
 
 import javax.persistence.Column;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.util.Date;
 
 public class ChatsDTO {
     private int idChats;
@@ -9,9 +11,9 @@ public class ChatsDTO {
 
     private String mensaje_tutor;
 
-    private LocalDate fecha_envio;
+    private Date fecha_envio;
 
-    private LocalDate fecha_recepcion;
+    private Date fecha_recepcion;
 
     public int getIdChats() {
         return idChats;
@@ -37,19 +39,19 @@ public class ChatsDTO {
         this.mensaje_tutor = mensaje_tutor;
     }
 
-    public LocalDate getFecha_envio() {
+    public Date getFecha_envio() {
         return fecha_envio;
     }
 
-    public void setFecha_envio(LocalDate fecha_envio) {
+    public void setFecha_envio(Date fecha_envio) {
         this.fecha_envio = fecha_envio;
     }
 
-    public LocalDate getFecha_recepcion() {
+    public Date getFecha_recepcion() {
         return fecha_recepcion;
     }
 
-    public void setFecha_recepcion(LocalDate fecha_recepcion) {
+    public void setFecha_recepcion(Date fecha_recepcion) {
         this.fecha_recepcion = fecha_recepcion;
     }
 }
