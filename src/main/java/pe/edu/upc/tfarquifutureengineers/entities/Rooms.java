@@ -14,7 +14,7 @@ public class Rooms {
     @Column(name = "cantidad_alumnos", nullable = false)
     private Integer cantidad_alumnos;
     @ManyToOne
-    @JoinColumn(name = "id_utors")
+    @JoinColumn(name = "id_tutor")
     private Tutors Tutores_id;//FOREING KEY DE TUTORS
     @ManyToOne
     @JoinColumn(name = "id_users")
