@@ -12,13 +12,26 @@ public class Tutors {
     @Column(name = "especializacion",length = 60,nullable = false)
     private String especializacion;
 
+    @ManyToOne
+    @JoinColumn(name = "idUsers")
+    private Users user;//FOREING KEY de USERS
+
     public Tutors() {
 
     }
 
-    public Tutors(int idTutor, String especializacion) {
+    public Tutors(int idTutor, String especializacion, Users user) {
         this.idTutor = idTutor;
         this.especializacion = especializacion;
+        this.user = user;
+    }
+
+    public Users getUser() {
+        return user;
+    }
+
+    public void setUser(Users user) {
+        this.user = user;
     }
 
     public int getIdTutor() {

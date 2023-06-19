@@ -13,10 +13,10 @@ public class RoomsDTO {
     private Integer codigo;
     private String Nombre;
     private Integer cantidad_alumnos;
-    private Tutors Tutores_id;//FOREING KEY DE TUTORS
-    private Users Tutores_Users_user_id;//FOREING KEY de USERS
+    private Tutors tutor;//FOREING KEY DE TUTORS
+    private Users user;//FOREING KEY de USERS
     private boolean status;
-    private Chats Chats_id;//FOREING KEY DE CHATS
+    private Chats chat;//FOREING KEY DE CHATS
 
     public Integer getIdRooms() {
         return idRooms;
@@ -50,20 +50,28 @@ public class RoomsDTO {
         this.cantidad_alumnos = cantidad_alumnos;
     }
 
-    public Tutors getTutores_id() {
-        return Tutores_id;
+    public Tutors getTutor() {
+        return tutor;
     }
 
-    public void setTutores_id(Tutors tutores_id) {
-        Tutores_id = tutores_id;
+    public void setTutor(Tutors tutor) {
+        this.tutor = tutor;
     }
 
-    public Users getTutores_Users_user_id() {
-        return Tutores_Users_user_id;
+    public Users getUser() {
+        return user;
     }
 
-    public void setTutores_Users_user_id(Users tutores_Users_user_id) {
-        Tutores_Users_user_id = tutores_Users_user_id;
+    public void setUser(Users user) {
+        this.user = user;
+    }
+
+    public Chats getChat() {
+        return chat;
+    }
+
+    public void setChat(Chats chat) {
+        this.chat = chat;
     }
 
     public boolean isStatus() {
@@ -74,11 +82,5 @@ public class RoomsDTO {
         this.status = status;
     }
 
-    public Chats getChats_id() {
-        return Chats_id;
-    }
 
-    public void setChats_id(Chats chats_id) {
-        Chats_id = chats_id;
-    }
 }

@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import pe.edu.upc.tfarquifutureengineers.entities.Chats;
 
 @Repository
-public interface IChatsRepository extends JpaRepository<Chats,Integer> {
+public interface IChatsRepository extends JpaRepository<Chats,Integer> {//order by///////////////////////////
 }

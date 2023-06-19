@@ -1,9 +1,12 @@
 package pe.edu.upc.tfarquifutureengineers.dtos;
 
+import pe.edu.upc.tfarquifutureengineers.entities.Users;
+
 public class TutorsDTO {
 
     private int idTutors;
     private String especializacion;
+    private Users user;//FOREING KEY de USERS
 
     public int getIdTutors() {
         return idTutors;
@@ -21,5 +24,11 @@ public class TutorsDTO {
         this.especializacion = especializacion;
     }
 
+    public Users getUser() {
+        return user;
+    }
 
+    public void setUser(Users user) {
+        this.user = user;
+    }
 }
