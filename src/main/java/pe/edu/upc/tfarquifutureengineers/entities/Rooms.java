@@ -14,29 +14,29 @@ public class Rooms {
     @Column(name = "cantidad_alumnos", nullable = false)
     private Integer cantidad_alumnos;
     @ManyToOne
-    @JoinColumn(name = "id_tutor")
-    private Tutors Tutores_id;//FOREING KEY DE TUTORS
+    @JoinColumn(name = "idTutor")
+    private Tutors tutor;//FOREING KEY DE TUTORS
     @ManyToOne
-    @JoinColumn(name = "id_users")
-    private Users Tutores_Users_user_id;//FOREING KEY de USERS
+    @JoinColumn(name = "idUsers")
+    private Users user;//FOREING KEY de USERS
     @Column(name = "status", nullable = false)
     private boolean status;
     @ManyToOne
-    @JoinColumn(name = "id_chats")
-    private Chats Chats_id;//FOREING KEY DE CHATS
+    @JoinColumn(name = "idChats")
+    private Chats chat;//FOREING KEY DE CHATS
 
     public Rooms() {
     }
 
-    public Rooms(Integer idRooms, Integer codigo, String nombre, Integer cantidad_alumnos, Tutors tutores_id, Users tutores_Users_user_id, boolean status, Chats chats_id) {
+    public Rooms(Integer idRooms, Integer codigo, String nombre, Integer cantidad_alumnos, Tutors tutor, Users user, boolean status, Chats chat) {
         this.idRooms = idRooms;
         this.codigo = codigo;
         Nombre = nombre;
         this.cantidad_alumnos = cantidad_alumnos;
-        Tutores_id = tutores_id;
-        Tutores_Users_user_id = tutores_Users_user_id;
+        this.tutor = tutor;
+        this.user = user;
         this.status = status;
-        Chats_id = chats_id;
+        this.chat = chat;
     }
 
     public Integer getIdRooms() {
@@ -71,20 +71,28 @@ public class Rooms {
         this.cantidad_alumnos = cantidad_alumnos;
     }
 
-    public Tutors getTutores_id() {
-        return Tutores_id;
+    public Tutors getTutor() {
+        return tutor;
     }
 
-    public void setTutores_id(Tutors tutores_id) {
-        Tutores_id = tutores_id;
+    public void setTutor(Tutors tutor) {
+        this.tutor = tutor;
     }
 
-    public Users getTutores_Users_user_id() {
-        return Tutores_Users_user_id;
+    public Users getUser() {
+        return user;
     }
 
-    public void setTutores_Users_user_id(Users tutores_Users_user_id) {
-        Tutores_Users_user_id = tutores_Users_user_id;
+    public void setUser(Users user) {
+        this.user = user;
+    }
+
+    public Chats getChat() {
+        return chat;
+    }
+
+    public void setChat(Chats chat) {
+        this.chat = chat;
     }
 
     public boolean isStatus() {
@@ -95,11 +103,5 @@ public class Rooms {
         this.status = status;
     }
 
-    public Chats getChats_id() {
-        return Chats_id;
-    }
 
-    public void setChats_id(Chats chats_id) {
-        Chats_id = chats_id;
-    }
 }
