@@ -6,7 +6,7 @@ public class TutorsDTO {
 
     private int idTutors;
     private String especializacion;
-    private Users Users_user_id;//FOREING KEY de USERS
+    private Users user;//FOREING KEY de USERS
 
     public int getIdTutors() {
         return idTutors;
@@ -24,11 +24,11 @@ public class TutorsDTO {
         this.especializacion = especializacion;
     }
 
-    public Users getUsers_user_id() {
-        return Users_user_id;
+    public Users getUser() {
+        return user;
     }
 
-    public void setUsers_user_id(Users users_user_id) {
-        Users_user_id = users_user_id;
+    public void setUser(Users user) {
+        this.user = user;
     }
 }
