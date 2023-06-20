@@ -6,9 +6,29 @@ public class StudentDTO {
     private int idStudent;
     private String colegio;
     private int edad;
+
+    private String nombre_completo;
+
+    private String correo_electronico;
     private int users_user_id;
     private int membresia_id;
     private int sala_id;
+
+    public String getNombre_completo() {
+        return nombre_completo;
+    }
+
+    public void setNombre_completo(String nombre_completo) {
+        this.nombre_completo = nombre_completo;
+    }
+
+    public String getCorreo_electronico() {
+        return correo_electronico;
+    }
+
+    public void setCorreo_electronico(String correo_electronico) {
+        this.correo_electronico = correo_electronico;
+    }
 
     public int getIdStudent() {
         return idStudent;
