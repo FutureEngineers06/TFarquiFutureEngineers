@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1960cf1c-bf52-4c34-8ec5-dbd9c536ced7" name="Changes" comment="Cambios" />
+    <list default="true" id="1960cf1c-bf52-4c34-8ec5-dbd9c536ced7" name="Changes" comment="Cambios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +51,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/FUTURO DISCO D/CICLO 8/ARQUITECTURA DE APLICACIONES WEB/S9-API INTELLIJ/S12-SEGURIDAD/demoAuthor&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/FUTURO DISCO D/CICLO 8/ARQUITECTURA DE APLICACIONES WEB/S9-API INTELLIJ/S13 Cloud computing/demoAuthor&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -110,7 +112,13 @@
       <workItem from="1686463884357" duration="74000" />
       <workItem from="1686463967996" duration="44000" />
       <workItem from="1686464029860" duration="322000" />
-      <workItem from="1686520813375" duration="2280000" />
+      <workItem from="1686520813375" duration="2213000" />
+      <workItem from="1686890238107" duration="8513000" />
+      <workItem from="1686962289867" duration="3700000" />
+      <workItem from="1687074994686" duration="641000" />
+      <workItem from="1687131137973" duration="16232000" />
+      <workItem from="1687347306796" duration="352000" />
+      <workItem from="1687380599348" duration="1093000" />
     </task>
     <servers />
   </component>
