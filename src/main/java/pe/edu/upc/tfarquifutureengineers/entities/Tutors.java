@@ -19,9 +19,9 @@ public class Tutors {
     @Column(name = "correo_electronico", length = 100)
     private String correo_electronico;
 
-    @ManyToOne
-    @JoinColumn(name = "idUsers")
-    private Users user;//FOREING KEY de USERS
+    //@ManyToOne
+    //@JoinColumn(name = "idUsers")
+    //private Users user;//FOREING KEY de USERS
 
     public Tutors() {
 
@@ -32,7 +32,7 @@ public class Tutors {
         this.especializacion = especializacion;
         this.nombre_completo = nombre_completo;
         this.correo_electronico = correo_electronico;
-        this.user = user;
+        ////this.user = user;
     }
 
     public String getNombre_completo() {
@@ -51,13 +51,13 @@ public class Tutors {
         this.correo_electronico = correo_electronico;
     }
 
-    public Users getUser() {
-        return user;
-    }
+    //public Users getUser() {
+    //    return user;
+    //}
 
-    public void setUser(Users user) {
-        this.user = user;
-    }
+    //public void setUser(Users user) {
+    //    this.user = user;
+    //}
 
     public int getIdTutor() {
         return idTutor;
