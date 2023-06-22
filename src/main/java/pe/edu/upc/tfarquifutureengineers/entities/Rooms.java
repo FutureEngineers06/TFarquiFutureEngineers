@@ -16,9 +16,9 @@ public class Rooms {
     @ManyToOne
     @JoinColumn(name = "idTutor")
     private Tutors tutor;//FOREING KEY DE TUTORS
-    @ManyToOne
-    @JoinColumn(name = "idUsers")
-    private Users user;//FOREING KEY de USERS
+    //@ManyToOne
+    //@JoinColumn(name = "idUsers")
+    //private Users user;//FOREING KEY de USERS
     @Column(name = "status", nullable = false)
     private boolean status;
     @ManyToOne
@@ -34,7 +34,7 @@ public class Rooms {
         Nombre = nombre;
         this.cantidad_alumnos = cantidad_alumnos;
         this.tutor = tutor;
-        this.user = user;
+        ////this.user = user;
         this.status = status;
         this.chat = chat;
     }
@@ -79,13 +79,13 @@ public class Rooms {
         this.tutor = tutor;
     }
 
-    public Users getUser() {
-        return user;
-    }
+    //public Users getUser() {
+    //    return user;
+    //}
 
-    public void setUser(Users user) {
-        this.user = user;
-    }
+    //public void setUser(Users user) {
+    //    this.user = user;
+    //}
 
     public Chats getChat() {
         return chat;

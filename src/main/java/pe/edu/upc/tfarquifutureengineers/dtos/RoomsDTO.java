@@ -14,7 +14,7 @@ public class RoomsDTO {
     private String Nombre;
     private Integer cantidad_alumnos;
     private Tutors tutor;//FOREING KEY DE TUTORS
-    private Users user;//FOREING KEY de USERS
+    //private Users user;//FOREING KEY de USERS
     private boolean status;
     private Chats chat;//FOREING KEY DE CHATS
 
@@ -58,13 +58,13 @@ public class RoomsDTO {
         this.tutor = tutor;
     }
 
-    public Users getUser() {
-        return user;
-    }
+    //public Users getUser() {
+    //    return user;
+    //}
 
-    public void setUser(Users user) {
-        this.user = user;
-    }
+    //public void setUser(Users user) {
+    //    this.user = user;
+    //}
 
     public Chats getChat() {
         return chat;
