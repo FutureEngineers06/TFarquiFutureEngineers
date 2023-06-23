@@ -4,7 +4,7 @@ import javax.persistence.Column;
 
 public class MembershipsDTO {
 
-    private int idMembership;
+    private int idMemberships;
 
     private String monto_pago;
 
@@ -12,12 +12,12 @@ public class MembershipsDTO {
 
     private String metodo_de_pago;
 
-    public int getIdMembership() {
-        return idMembership;
+    public int getIdMemberships() {
+        return idMemberships;
     }
 
-    public void setIdMembership(int idMembership) {
-        this.idMembership = idMembership;
+    public void setIdMemberships(int idMemberships) {
+        this.idMemberships = idMemberships;
     }
 
     public String getMonto_pago() {

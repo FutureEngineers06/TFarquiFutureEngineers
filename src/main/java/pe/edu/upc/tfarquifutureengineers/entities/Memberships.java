@@ -29,12 +29,12 @@ public class Memberships {
         this.metodo_de_pago = metodo_de_pago;
     }
 
-    public int getIdMembership() {
+    public int getIdMemberships() {
         return idMemberships;
     }
 
-    public void setIdMembership(int idMembership) {
-        this.idMemberships = idMembership;
+    public void setIdMemberships(int idMemberships) {
+        this.idMemberships = idMemberships;
     }
 
     public String getMonto_pago() {
