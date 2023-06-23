@@ -49,4 +49,10 @@ public class SimulationsController {
         Simulations s= m.map(dto, Simulations.class);
         sS.insert(s);
     }
+
+    @GetMapping("/simulation-count")
+    public List<> get() {
+        List<>  = sS.reporte01();
+        return ;
+    }
 }
