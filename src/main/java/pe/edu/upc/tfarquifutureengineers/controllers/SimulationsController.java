@@ -51,8 +51,7 @@ public class SimulationsController {
         sS.insert(s);
     }
 
-
-    @GetMapping("/simulations-count")
+     @GetMapping("/simulations-count")
     public List<ProfessionsSimulationsDTO> getcountSimulationByProfession() {
         List<ProfessionsSimulationsDTO> simulationProfessionDTO = sS.reporte01();
         return simulationProfessionDTO;

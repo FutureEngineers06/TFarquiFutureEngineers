@@ -1,5 +1,6 @@
 package pe.edu.upc.tfarquifutureengineers.services;
 
+import pe.edu.upc.tfarquifutureengineers.dtos.ExamsSimulationsDTO;
 import pe.edu.upc.tfarquifutureengineers.entities.Chats;
 import pe.edu.upc.tfarquifutureengineers.entities.Exams;
 
@@ -15,4 +16,6 @@ public interface IExamsService {
 
     //MODIFICAR
     public Exams listId(int idExams);
+
+    public List<ExamsSimulationsDTO> reporte02();
 }

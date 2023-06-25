@@ -4,6 +4,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import pe.edu.upc.tfarquifutureengineers.dtos.ExamsDTO;
+import pe.edu.upc.tfarquifutureengineers.dtos.ExamsSimulationsDTO;
 import pe.edu.upc.tfarquifutureengineers.dtos.SimulationsDTO;
 import pe.edu.upc.tfarquifutureengineers.entities.Exams;
 import pe.edu.upc.tfarquifutureengineers.services.IExamsService;
@@ -49,5 +50,12 @@ public class ExamsController {
         ModelMapper m= new ModelMapper();
         Exams e= m.map(dto, Exams.class);
         eS.insertar(e);
+    }
+
+
+    @GetMapping("/exams-count")
+    public List<ExamsSimulationsDTO> getExamsCountBySimulations() {
+        List<ExamsSimulationsDTO> examsSimulationsDTOS = eS.reporte02();
+        return examsSimulationsDTOS;
     }
 }
