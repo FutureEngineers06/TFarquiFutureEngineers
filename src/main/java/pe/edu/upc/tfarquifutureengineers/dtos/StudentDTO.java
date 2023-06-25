@@ -12,9 +12,9 @@ public class StudentDTO {
     private String nombre_completo;
 
     private String correo_electronico;
-    private int users_user_id;
+    //private int users_user_id;
     private Memberships memberships;
-    private int sala_id;
+    //private int sala_id;
 
     public String getNombre_completo() {
         return nombre_completo;
@@ -56,13 +56,13 @@ public class StudentDTO {
         this.edad = edad;
     }
 
-    public int getUsers_user_id() {
-        return users_user_id;
-    }
+    //public int getUsers_user_id() {
+    //    return users_user_id;
+    //}
 
-    public void setUsers_user_id(int users_user_id) {
-        this.users_user_id = users_user_id;
-    }
+    //public void setUsers_user_id(int users_user_id) {
+    //    this.users_user_id = users_user_id;
+    //}
 
     public Memberships getMemberships() {
         return memberships;
@@ -72,11 +72,11 @@ public class StudentDTO {
         this.memberships = memberships;
     }
 
-    public int getSala_id() {
-        return sala_id;
-    }
+    //public int getSala_id() {
+    //    return sala_id;
+    //}
 
-    public void setSala_id(int sala_id) {
-        this.sala_id = sala_id;
-    }
+    //public void setSala_id(int sala_id) {
+    //    this.sala_id = sala_id;
+    //}
 }

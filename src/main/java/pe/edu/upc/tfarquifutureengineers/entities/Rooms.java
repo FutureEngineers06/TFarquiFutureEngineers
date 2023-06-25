@@ -11,8 +11,8 @@ public class Rooms {
     private Integer codigo;
     @Column(name = "Nombre",length = 50, nullable = false)
     private String Nombre;
-    @Column(name = "cantidad_alumnos", nullable = false)
-    private Integer cantidad_alumnos;
+    @Column(name = "room_duration", nullable = false)
+    private Integer room_duration;
     @ManyToOne
     @JoinColumn(name = "idTutors")
     private Tutors tutor;//FOREING KEY DE TUTORS
@@ -30,11 +30,11 @@ public class Rooms {
     public Rooms() {
     }
 
-    public Rooms(Integer idRooms, Integer codigo, String nombre, Integer cantidad_alumnos, Tutors tutor, Student student, Chats chat) {
+    public Rooms(Integer idRooms, Integer codigo, String nombre, Integer room_duration, Tutors tutor, Student student, Chats chat) {
         this.idRooms = idRooms;
         this.codigo = codigo;
         Nombre = nombre;
-        this.cantidad_alumnos = cantidad_alumnos;
+        this.room_duration = room_duration;
         this.tutor = tutor;
         this.student = student;
         this.chat = chat;
@@ -72,12 +72,12 @@ public class Rooms {
         Nombre = nombre;
     }
 
-    public Integer getCantidad_alumnos() {
-        return cantidad_alumnos;
+    public Integer getRoom_duration() {
+        return room_duration;
     }
 
-    public void setCantidad_alumnos(Integer cantidad_alumnos) {
-        this.cantidad_alumnos = cantidad_alumnos;
+    public void setRoom_duration(Integer room_duration) {
+        this.room_duration = room_duration;
     }
 
     public Tutors getTutor() {

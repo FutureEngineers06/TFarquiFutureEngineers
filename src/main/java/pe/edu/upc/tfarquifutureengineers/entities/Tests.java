@@ -20,7 +20,11 @@ public class Tests {
 
     @OneToOne
     @JoinColumn(name="idStudents")
-    private Student students_id;
+    private Student student;
+
+    @OneToOne
+    @JoinColumn(name="idProfessions")
+    private Professions professions;
 
     // student_user_id
 
@@ -28,12 +32,29 @@ public class Tests {
     public Tests() {
     }
 
-    public Tests(int idTests, String preguntas, String respuestas, String resultado, Student students_id) {
+    public Tests(int idTests, String preguntas, String respuestas, String resultado, Student student, Professions professions) {
         this.idTests = idTests;
         this.preguntas = preguntas;
         this.respuestas = respuestas;
         this.resultado = resultado;
-        this.students_id = students_id;
+        this.student = student;
+        this.professions = professions;
+    }
+
+    public Professions getProfessions() {
+        return professions;
+    }
+
+    public void setProfessions(Professions professions) {
+        this.professions = professions;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
     }
 
     public int getIdTests() {
@@ -68,11 +89,4 @@ public class Tests {
         this.resultado = resultado;
     }
 
-    public Student getStudent() {
-        return students_id;
-    }
-
-    public void setStudent(Student students_id) {
-        this.students_id = students_id;
-    }
 }

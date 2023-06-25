@@ -21,25 +21,23 @@ public class Professions {
     @Column(name="campo_laboral", length = 200, nullable = false)
     private String campo_laboral;
 
-    @ManyToOne
-    @JoinColumn(name="idSimulations")
-    private Simulations simulation;
+    //@ManyToOne//
+    //@JoinColumn(name="idSimulations")
+    //private Simulations simulation;
 
-    @ManyToOne
-    @JoinColumn(name="idTests")
-    private Tests tests;
+    //@ManyToOne
+    //@JoinColumn(name="idTests")
+    //private Tests tests;
 
     public Professions() {
     }
 
-    public Professions(int idProfessions, String nombre, String informacion, Integer duracion, String campo_laboral, Simulations simulation, Tests tests) {
+    public Professions(int idProfessions, String nombre, String informacion, Integer duracion, String campo_laboral) {
         this.idProfessions = idProfessions;
         this.nombre = nombre;
         this.informacion = informacion;
         this.duracion = duracion;
         this.campo_laboral = campo_laboral;
-        this.simulation = simulation;
-        this.tests = tests;
     }
 
     public int getIdProfessions() {
@@ -82,19 +80,5 @@ public class Professions {
         this.campo_laboral = campo_laboral;
     }
 
-    public Simulations getSimulation() {
-        return simulation;
-    }
 
-    public void setSimulation(Simulations simulation) {
-        this.simulation = simulation;
-    }
-
-    public Tests getTests() {
-        return tests;
-    }
-
-    public void setTests(Tests tests) {
-        this.tests = tests;
-    }
 }

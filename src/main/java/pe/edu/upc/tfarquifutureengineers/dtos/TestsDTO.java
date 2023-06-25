@@ -1,5 +1,6 @@
 package pe.edu.upc.tfarquifutureengineers.dtos;
 
+import pe.edu.upc.tfarquifutureengineers.entities.Professions;
 import pe.edu.upc.tfarquifutureengineers.entities.Student;
 
 import javax.persistence.Column;
@@ -16,7 +17,17 @@ public class TestsDTO {
 
     private String resultado;
 
-    private Student students_id;
+    private Student student;
+
+    private Professions professions;
+
+    public Professions getProfessions() {
+        return professions;
+    }
+
+    public void setProfessions(Professions professions) {
+        this.professions = professions;
+    }
 
     public int getIdTests() {
         return idTests;
@@ -51,10 +62,10 @@ public class TestsDTO {
     }
 
     public Student getStudent() {
-        return students_id;
+        return student;
     }
 
-    public void setStudent(Student students_id) {
-        this.students_id = students_id;
+    public void setStudent(Student student) {
+        this.student = student;
     }
 }

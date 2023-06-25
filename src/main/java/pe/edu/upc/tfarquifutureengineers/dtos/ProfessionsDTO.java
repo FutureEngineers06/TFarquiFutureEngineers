@@ -15,9 +15,7 @@ public class ProfessionsDTO {
 
     private String campo_laboral;
 
-    private Simulations simulation;
 
-    private Tests tests;
 
     public int getIdProfessions() {
         return idProfessions;
@@ -59,19 +57,4 @@ public class ProfessionsDTO {
         this.campo_laboral = campo_laboral;
     }
 
-    public Simulations getSimulation() {
-        return simulation;
-    }
-
-    public void setSimulation(Simulations simulation) {
-        this.simulation = simulation;
-    }
-
-    public Tests getTests() {
-        return tests;
-    }
-
-    public void setTests(Tests tests) {
-        this.tests = tests;
-    }
 }

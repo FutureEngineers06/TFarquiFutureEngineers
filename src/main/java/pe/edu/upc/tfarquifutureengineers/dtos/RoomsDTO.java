@@ -13,7 +13,7 @@ public class RoomsDTO {
     private Integer idRooms;//PRIMARY KEY
     private Integer codigo;
     private String Nombre;
-    private Integer cantidad_alumnos;
+    private Integer room_duration;
     private Tutors tutor;//FOREING KEY DE TUTORS
     private Student student;//FOREING KEY de USERS
     //private Users user;//FOREING KEY de USERS
@@ -52,12 +52,12 @@ public class RoomsDTO {
         Nombre = nombre;
     }
 
-    public Integer getCantidad_alumnos() {
-        return cantidad_alumnos;
+    public Integer getRoom_duration() {
+        return room_duration;
     }
 
-    public void setCantidad_alumnos(Integer cantidad_alumnos) {
-        this.cantidad_alumnos = cantidad_alumnos;
+    public void setRoom_duration(Integer room_duration) {
+        this.room_duration = room_duration;
     }
 
     public Tutors getTutor() {
