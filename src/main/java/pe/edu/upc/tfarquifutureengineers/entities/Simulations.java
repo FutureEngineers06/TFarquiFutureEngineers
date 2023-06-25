@@ -10,26 +10,39 @@ public class Simulations {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idSimulations;
 
-    @Column(name = "nameCurso", length = 50, nullable = false)
-    private String nameCurso;
+    @Column(name = "name_curso", length = 50, nullable = false)
+    private String name_curso;
 
-    @Column(name="planCurso", length = 100, nullable = false)
-    private String planCurso;
+    @Column(name="plan_curso", length = 100, nullable = false)
+    private String plan_curso;
 
-    @Column(name="metodologiaCurso", length = 200, nullable = false)
-    private String metodologiaCurso;
+    @Column(name="metodologia_curso", length = 200, nullable = false)
+    private String metodologia_curso;
 
-    @Column(name="duracionHoras", length = 2, nullable = false)
-    private String duracionHoras;
+    @Column(name="duracion_horas", length = 2, nullable = false)
+    private String duracion_horas;
+
+    @ManyToOne
+    @JoinColumn(name = "idProfessions")
+    private Professions professions;//FOREING KEY
 
     public Simulations(){}
 
-    public Simulations(int idSimulations, String nameCurso, String planCurso, String metodologiaCurso, String duracionHoras) {
+    public Simulations(int idSimulations, String name_curso, String plan_curso, String metodologia_curso, String duracion_horas, Professions professions) {
         this.idSimulations = idSimulations;
-        this.nameCurso= nameCurso;
-        this.planCurso= planCurso;
-        this.metodologiaCurso=metodologiaCurso;
-        this.duracionHoras= duracionHoras;
+        this.name_curso = name_curso;
+        this.plan_curso = plan_curso;
+        this.metodologia_curso = metodologia_curso;
+        this.duracion_horas = duracion_horas;
+        this.professions = professions;
+    }
+
+    public Professions getProfessions() {
+        return professions;
+    }
+
+    public void setProfessions(Professions professions) {
+        this.professions = professions;
     }
 
     public int getIdSimulations() {
@@ -40,35 +53,35 @@ public class Simulations {
         this.idSimulations = idSimulations;
     }
 
-    public String getNameCurso() {
-        return nameCurso;
+    public String getName_curso() {
+        return name_curso;
     }
 
-    public void setNameCurso(String nameCurso) {
-        this.nameCurso = nameCurso;
+    public void setName_curso(String name_curso) {
+        this.name_curso = name_curso;
     }
 
-    public String getPlanCurso() {
-        return planCurso;
+    public String getPlan_curso() {
+        return plan_curso;
     }
 
-    public void setPlanCurso(String planCurso) {
-        this.planCurso = planCurso;
+    public void setPlan_curso(String plan_curso) {
+        this.plan_curso = plan_curso;
     }
 
-    public String getMetodologiaCurso() {
-        return metodologiaCurso;
+    public String getMetodologia_curso() {
+        return metodologia_curso;
     }
 
-    public void setMetodologiaCurso(String metodologiaCurso) {
-        this.metodologiaCurso = metodologiaCurso;
+    public void setMetodologia_curso(String metodologia_curso) {
+        this.metodologia_curso = metodologia_curso;
     }
 
-    public String getDuracionHoras() {
-        return duracionHoras;
+    public String getDuracion_horas() {
+        return duracion_horas;
     }
 
-    public void setDuracionHoras(String duracionHoras) {
-        this.duracionHoras = duracionHoras;
+    public void setDuracion_horas(String duracion_horas) {
+        this.duracion_horas = duracion_horas;
     }
 }

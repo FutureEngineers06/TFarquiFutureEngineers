@@ -4,13 +4,13 @@ import pe.edu.upc.tfarquifutureengineers.entities.Simulations;
 
 public class ExamsDTO {
     private int idExams;
-    private Integer cantidadPreguntas;
+    private Integer cantidad_preguntas;
 
-    private String preguntaExam;
+    private String pregunta_exam;
 
-    private String respuestaExam;
+    private String respuesta_exam;
 
-    private String calificacion;
+    private String calificacion_exam;
 
     private Simulations simulation;
 
@@ -22,36 +22,44 @@ public class ExamsDTO {
         this.idExams = idExams;
     }
 
-    public Integer getCantidadPreguntas() {
-        return cantidadPreguntas;
+    public int getIdExams() {
+        return idExams;
     }
 
-    public void setCantidadPreguntas(Integer cantidadPreguntas) {
-        this.cantidadPreguntas = cantidadPreguntas;
+    public void setIdExams(int idExams) {
+        this.idExams = idExams;
     }
 
-    public String getPreguntaExam() {
-        return preguntaExam;
+    public Integer getCantidad_preguntas() {
+        return cantidad_preguntas;
     }
 
-    public void setPreguntaExam(String preguntaExam) {
-        this.preguntaExam = preguntaExam;
+    public void setCantidad_preguntas(Integer cantidad_preguntas) {
+        this.cantidad_preguntas = cantidad_preguntas;
     }
 
-    public String getRespuestaExam() {
-        return respuestaExam;
+    public String getPregunta_exam() {
+        return pregunta_exam;
     }
 
-    public void setRespuestaExam(String respuestaExam) {
-        this.respuestaExam = respuestaExam;
+    public void setPregunta_exam(String pregunta_exam) {
+        this.pregunta_exam = pregunta_exam;
     }
 
-    public String getCalificacion() {
-        return calificacion;
+    public String getRespuesta_exam() {
+        return respuesta_exam;
     }
 
-    public void setCalificacion(String calificacion) {
-        this.calificacion = calificacion;
+    public void setRespuesta_exam(String respuesta_exam) {
+        this.respuesta_exam = respuesta_exam;
+    }
+
+    public String getCalificacion_exam() {
+        return calificacion_exam;
+    }
+
+    public void setCalificacion_exam(String calificacion_exam) {
+        this.calificacion_exam = calificacion_exam;
     }
 
     public Simulations getSimulation() {

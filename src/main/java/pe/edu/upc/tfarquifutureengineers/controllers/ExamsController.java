@@ -19,7 +19,7 @@ public class ExamsController {
 
 
     @PostMapping
-    public void registrar(@RequestBody SimulationsDTO dto){
+    public void registrar(@RequestBody ExamsDTO dto){
         ModelMapper m= new ModelMapper();
         Exams e= m.map(dto, Exams.class);
         eS.insertar(e);

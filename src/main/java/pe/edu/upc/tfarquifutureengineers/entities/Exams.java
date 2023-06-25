@@ -9,17 +9,17 @@ public class Exams {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int idExams;
 
-    @Column(name="cantidadPreguntas", nullable = false)
-    private Integer cantidadPreguntas;
+    @Column(name="cantidad_preguntas", nullable = false)
+    private Integer cantidad_preguntas;
 
-    @Column(name="preguntaExam", nullable = false)
-    private String preguntaExam;
+    @Column(name="pregunta_exam",length = 100, nullable = false)
+    private String pregunta_exam;
 
-    @Column(name="respuestaExam", nullable = false)
-    private String respuestaExam;
+    @Column(name="respuesta_exam",length = 50, nullable = false)
+    private String respuesta_exam;
 
-    @Column(name="calificacionExam", nullable = false)
-    private String calificacion;
+    @Column(name="calificacion_exam",length = 50, nullable = false)
+    private String calificacion_exam;
 
     @ManyToOne
     @JoinColumn(name="idSimulations")
@@ -28,53 +28,53 @@ public class Exams {
     public Exams() {
     }
 
-    public Exams(int idExams, Integer cantidadPreguntas, String preguntaExam, String respuestaExam, String calificacion, Simulations simulation) {
+    public Exams(int idExams, Integer cantidad_preguntas, String pregunta_exam, String respuesta_exam, String calificacion_exam, Simulations simulation) {
         this.idExams = idExams;
-        this.cantidadPreguntas = cantidadPreguntas;
-        this.preguntaExam = preguntaExam;
-        this.respuestaExam = respuestaExam;
-        this.calificacion = calificacion;
+        this.cantidad_preguntas = cantidad_preguntas;
+        this.pregunta_exam = pregunta_exam;
+        this.respuesta_exam = respuesta_exam;
+        this.calificacion_exam = calificacion_exam;
         this.simulation = simulation;
     }
 
-    public int getIdExam() {
+    public int getIdExams() {
         return idExams;
     }
 
-    public void setIdExam(int idExams) {
+    public void setIdExams(int idExams) {
         this.idExams = idExams;
     }
 
-    public Integer getCantidadPreguntas() {
-        return cantidadPreguntas;
+    public Integer getCantidad_preguntas() {
+        return cantidad_preguntas;
     }
 
-    public void setCantidadPreguntas(Integer cantidadPreguntas) {
-        this.cantidadPreguntas = cantidadPreguntas;
+    public void setCantidad_preguntas(Integer cantidad_preguntas) {
+        this.cantidad_preguntas = cantidad_preguntas;
     }
 
-    public String getPreguntaExam() {
-        return preguntaExam;
+    public String getPregunta_exam() {
+        return pregunta_exam;
     }
 
-    public void setPreguntaExam(String preguntaExam) {
-        this.preguntaExam = preguntaExam;
+    public void setPregunta_exam(String pregunta_exam) {
+        this.pregunta_exam = pregunta_exam;
     }
 
-    public String getRespuestaExam() {
-        return respuestaExam;
+    public String getRespuesta_exam() {
+        return respuesta_exam;
     }
 
-    public void setRespuestaExam(String respuestaExam) {
-        this.respuestaExam = respuestaExam;
+    public void setRespuesta_exam(String respuesta_exam) {
+        this.respuesta_exam = respuesta_exam;
     }
 
-    public String getCalificacion() {
-        return calificacion;
+    public String getCalificacion_exam() {
+        return calificacion_exam;
     }
 
-    public void setCalificacion(String calificacion) {
-        this.calificacion = calificacion;
+    public void setCalificacion_exam(String calificacion_exam) {
+        this.calificacion_exam = calificacion_exam;
     }
 
     public Simulations getSimulation() {
