@@ -1,6 +1,7 @@
 package pe.edu.upc.tfarquifutureengineers.dtos;
 
 import pe.edu.upc.tfarquifutureengineers.entities.Chats;
+import pe.edu.upc.tfarquifutureengineers.entities.Student;
 import pe.edu.upc.tfarquifutureengineers.entities.Tutors;
 import pe.edu.upc.tfarquifutureengineers.entities.Users;
 
@@ -14,9 +15,18 @@ public class RoomsDTO {
     private String Nombre;
     private Integer cantidad_alumnos;
     private Tutors tutor;//FOREING KEY DE TUTORS
+    private Student student;//FOREING KEY de USERS
     //private Users user;//FOREING KEY de USERS
-    private boolean status;
+    //private boolean status;
     private Chats chat;//FOREING KEY DE CHATS
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
 
     public Integer getIdRooms() {
         return idRooms;
@@ -74,13 +84,13 @@ public class RoomsDTO {
         this.chat = chat;
     }
 
-    public boolean isStatus() {
-        return status;
-    }
+    //public boolean isStatus() {
+    //   return status;
+    //}
 
-    public void setStatus(boolean status) {
-        this.status = status;
-    }
+    //public void setStatus(boolean status) {
+    //    this.status = status;
+    //}
 
 
 }

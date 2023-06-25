@@ -14,13 +14,15 @@ public class Rooms {
     @Column(name = "cantidad_alumnos", nullable = false)
     private Integer cantidad_alumnos;
     @ManyToOne
-    @JoinColumn(name = "idTutor")
+    @JoinColumn(name = "idTutors")
     private Tutors tutor;//FOREING KEY DE TUTORS
-    //@ManyToOne
-    //@JoinColumn(name = "idUsers")
-    //private Users user;//FOREING KEY de USERS
-    @Column(name = "status", nullable = false)
-    private boolean status;
+
+    @ManyToOne
+    @JoinColumn(name = "idStudents")
+    private Student student;//FOREING KEY de USERS
+    //@Column(name = "status", nullable = false)
+    //@Column(name = "status")
+    //private boolean status;
     @ManyToOne
     @JoinColumn(name = "idChats")
     private Chats chat;//FOREING KEY DE CHATS
@@ -28,15 +30,22 @@ public class Rooms {
     public Rooms() {
     }
 
-    public Rooms(Integer idRooms, Integer codigo, String nombre, Integer cantidad_alumnos, Tutors tutor, Users user, boolean status, Chats chat) {
+    public Rooms(Integer idRooms, Integer codigo, String nombre, Integer cantidad_alumnos, Tutors tutor, Student student, Chats chat) {
         this.idRooms = idRooms;
         this.codigo = codigo;
         Nombre = nombre;
         this.cantidad_alumnos = cantidad_alumnos;
         this.tutor = tutor;
-        ////this.user = user;
-        this.status = status;
+        this.student = student;
         this.chat = chat;
+    }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
     }
 
     public Integer getIdRooms() {
@@ -95,13 +104,13 @@ public class Rooms {
         this.chat = chat;
     }
 
-    public boolean isStatus() {
-        return status;
-    }
+    //public boolean isStatus() {
+    //    return status;
+    //}
 
-    public void setStatus(boolean status) {
-        this.status = status;
-    }
+    //public void setStatus(boolean status) {
+    //    this.status = status;
+    //}
 
 
 }

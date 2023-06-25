@@ -23,18 +23,18 @@ public class Student {
 
     @ManyToOne
     @JoinColumn(name = "idMemberships")
-    private Memberships memberships_id;
+    private Memberships memberships;
 
     public Student() {
     }
 
-    public Student(int idStudents, String colegio, int edad, String nombre_completo, String correo_electronico, Memberships memberships_id) {
+    public Student(int idStudents, String colegio, int edad, String nombre_completo, String correo_electronico, Memberships memberships) {
         this.idStudents = idStudents;
         this.colegio = colegio;
         this.edad = edad;
         this.nombre_completo = nombre_completo;
         this.correo_electronico = correo_electronico;
-        this.memberships_id = memberships_id;
+        this.memberships = memberships;
     }
 
     public String getNombre_completo() {
@@ -53,12 +53,12 @@ public class Student {
         this.correo_electronico = correo_electronico;
     }
 
-    public Memberships getMemberships_id() {
-        return memberships_id;
+    public Memberships getMemberships() {
+        return memberships;
     }
 
-    public void setMemberships_id(Memberships memberships_id) {
-        this.memberships_id = memberships_id;
+    public void setMemberships(Memberships memberships) {
+        this.memberships = memberships;
     }
 
     public int getIdStudents() {
@@ -85,11 +85,5 @@ public class Student {
         this.edad = edad;
     }
 
-    public Memberships getMemberships() {
-        return memberships_id;
-    }
 
-    public void setMemberships(Memberships memberships_id) {
-        this.memberships_id = memberships_id;
-    }
 }

@@ -8,7 +8,7 @@ import javax.persistence.*;
 public class Tutors {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int idTutor;
+    private int idTutors;
     @Column(name = "especializacion",length = 60,nullable = false)
     private String especializacion;
 
@@ -27,12 +27,19 @@ public class Tutors {
 
     }
 
-    public Tutors(int idTutor, String especializacion, String nombre_completo, String correo_electronico, Users user) {
-        this.idTutor = idTutor;
+    public Tutors(int idTutors, String especializacion, String nombre_completo, String correo_electronico) {
+        this.idTutors = idTutors;
         this.especializacion = especializacion;
         this.nombre_completo = nombre_completo;
         this.correo_electronico = correo_electronico;
-        ////this.user = user;
+    }
+
+    public int getIdTutors() {
+        return idTutors;
+    }
+
+    public void setIdTutors(int idTutors) {
+        this.idTutors = idTutors;
     }
 
     public String getNombre_completo() {
@@ -59,13 +66,7 @@ public class Tutors {
     //    this.user = user;
     //}
 
-    public int getIdTutor() {
-        return idTutor;
-    }
 
-    public void setIdTutor(int idTutor) {
-        this.idTutor = idTutor;
-    }
 
     public String getEspecializacion() {
         return especializacion;

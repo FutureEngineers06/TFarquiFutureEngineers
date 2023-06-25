@@ -25,12 +25,12 @@ public class TutorsServiceImplement implements ITutorsService{
     }
 
     @Override
-    public void delete(int idTutor) {
-        tR.deleteById(idTutor);
+    public void delete(int idTutors) {
+        tR.deleteById(idTutors);
     }
 
     @Override
-    public Tutors listId(int idTutor) {
-        return tR.findById(idTutor).orElse(new Tutors());
+    public Tutors listId(int idTutors) {
+        return tR.findById(idTutors).orElse(new Tutors());
     }
 }

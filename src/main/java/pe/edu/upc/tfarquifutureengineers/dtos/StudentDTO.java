@@ -1,9 +1,11 @@
 package pe.edu.upc.tfarquifutureengineers.dtos;
 
+import pe.edu.upc.tfarquifutureengineers.entities.Memberships;
+
 import javax.persistence.Column;
 
 public class StudentDTO {
-    private int idStudent;
+    private int idStudents;
     private String colegio;
     private int edad;
 
@@ -11,7 +13,7 @@ public class StudentDTO {
 
     private String correo_electronico;
     private int users_user_id;
-    private int membresia_id;
+    private Memberships memberships;
     private int sala_id;
 
     public String getNombre_completo() {
@@ -30,12 +32,12 @@ public class StudentDTO {
         this.correo_electronico = correo_electronico;
     }
 
-    public int getIdStudent() {
-        return idStudent;
+    public int getIdStudents() {
+        return idStudents;
     }
 
-    public void setIdStudent(int idStudent) {
-        this.idStudent = idStudent;
+    public void setIdStudents(int idStudents) {
+        this.idStudents = idStudents;
     }
 
     public String getColegio() {
@@ -62,12 +64,12 @@ public class StudentDTO {
         this.users_user_id = users_user_id;
     }
 
-    public int getMembresia_id() {
-        return membresia_id;
+    public Memberships getMemberships() {
+        return memberships;
     }
 
-    public void setMembresia_id(int membresia_id) {
-        this.membresia_id = membresia_id;
+    public void setMemberships(Memberships memberships) {
+        this.memberships = memberships;
     }
 
     public int getSala_id() {
