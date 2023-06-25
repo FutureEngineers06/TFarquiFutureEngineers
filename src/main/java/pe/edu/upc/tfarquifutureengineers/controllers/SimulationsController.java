@@ -3,6 +3,7 @@ package pe.edu.upc.tfarquifutureengineers.controllers;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import pe.edu.upc.tfarquifutureengineers.dtos.ProfessionsSimulationsDTO;
 import pe.edu.upc.tfarquifutureengineers.dtos.SimulationsDTO;
 import pe.edu.upc.tfarquifutureengineers.entities.Simulations;
 import pe.edu.upc.tfarquifutureengineers.services.ISimulationsService;
@@ -48,5 +49,12 @@ public class SimulationsController {
         ModelMapper m= new ModelMapper();
         Simulations s= m.map(dto, Simulations.class);
         sS.insert(s);
+    }
+
+
+    @GetMapping("/simulations-count")
+    public List<ProfessionsSimulationsDTO> getcountSimulationByProfession() {
+        List<ProfessionsSimulationsDTO> simulationProfessionDTO = sS.reporte01();
+        return simulationProfessionDTO;
     }
 }

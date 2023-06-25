@@ -17,7 +17,7 @@ public class Rooms {
     @JoinColumn(name = "idTutors")
     private Tutors tutor;//FOREING KEY DE TUTORS
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.PERSIST)
     @JoinColumn(name = "idStudents")
     private Student student;//FOREING KEY de USERS
     //@Column(name = "status", nullable = false)
@@ -63,6 +63,7 @@ public class Rooms {
     public void setCodigo(Integer codigo) {
         this.codigo = codigo;
     }
+
 
     public String getNombre() {
         return Nombre;
