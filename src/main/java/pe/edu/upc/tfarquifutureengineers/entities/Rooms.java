@@ -9,15 +9,16 @@ public class Rooms {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idRooms;//PRIMARY KEY
     private Integer codigo;
-    @Column(name = "Nombre",length = 50, nullable = false)
-    private String Nombre;
+    @Column(name = "nombre",length = 50, nullable = false)
+    private String nombre;
     @Column(name = "room_duration", nullable = false)
     private Integer room_duration;
     @ManyToOne
     @JoinColumn(name = "idTutors")
     private Tutors tutor;//FOREING KEY DE TUTORS
 
-    @ManyToOne(cascade = CascadeType.PERSIST)
+    //@ManyToOne(cascade = CascadeType.PERSIST)
+    @ManyToOne
     @JoinColumn(name = "idStudents")
     private Student student;//FOREING KEY de USERS
     //@Column(name = "status", nullable = false)
@@ -33,7 +34,7 @@ public class Rooms {
     public Rooms(Integer idRooms, Integer codigo, String nombre, Integer room_duration, Tutors tutor, Student student, Chats chat) {
         this.idRooms = idRooms;
         this.codigo = codigo;
-        Nombre = nombre;
+        this.nombre = nombre;
         this.room_duration = room_duration;
         this.tutor = tutor;
         this.student = student;
@@ -66,11 +67,11 @@ public class Rooms {
 
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        Nombre = nombre;
+        this.nombre = nombre;
     }
 
     public Integer getRoom_duration() {

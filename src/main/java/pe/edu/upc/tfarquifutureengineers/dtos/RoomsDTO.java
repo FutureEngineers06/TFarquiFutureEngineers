@@ -12,7 +12,7 @@ import javax.persistence.ManyToOne;
 public class RoomsDTO {
     private Integer idRooms;//PRIMARY KEY
     private Integer codigo;
-    private String Nombre;
+    private String nombre;
     private Integer room_duration;
     private Tutors tutor;//FOREING KEY DE TUTORS
     private Student student;//FOREING KEY de USERS
@@ -45,11 +45,11 @@ public class RoomsDTO {
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        Nombre = nombre;
+        this.nombre = nombre;
     }
 
     public Integer getRoom_duration() {
