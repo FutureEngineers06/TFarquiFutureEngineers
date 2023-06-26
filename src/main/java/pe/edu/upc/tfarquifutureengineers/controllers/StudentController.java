@@ -47,8 +47,8 @@ public class StudentController {
     sS.insert(s);
     }
 
-    @GetMapping("/rooms-count")
-    public List<StudentMembershipDTO> getCountRoomsByTutors() {
+    @GetMapping("/students-count")
+    public List<StudentMembershipDTO> getCountStudentsByMemberships() {
         List<StudentMembershipDTO> studentMembershipDTO = sS.reporte04();
         return studentMembershipDTO;
     }

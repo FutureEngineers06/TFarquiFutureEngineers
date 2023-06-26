@@ -10,8 +10,8 @@ import java.util.List;
 @Repository
 public interface IStudentRepository extends JpaRepository<Student,Integer> {
 
-    @Query(value = "SELECT a.nombre_completo,count(b.id_students) from students b \n" +
-            "join memberships a on  b.id_memberships = a.id_memberships \n" +
-            "group by a.nombre_completo ORDER BY COUNT(a.nombre_completo) DESC", nativeQuery = true)
+    @Query(value = "SELECT a.beneficios,count(b.id_students) from students b\n" +
+            "join memberships a on  b.id_memberships = a.id_memberships\n" +
+            "group by a.beneficios ORDER BY COUNT(a.beneficios) DESC", nativeQuery = true)
     List<String[]> getCountStudentsByMemberships();
 }
