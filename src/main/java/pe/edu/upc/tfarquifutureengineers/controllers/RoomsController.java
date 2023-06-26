@@ -4,7 +4,9 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import pe.edu.upc.tfarquifutureengineers.dtos.ProfessionsDTO;
+import pe.edu.upc.tfarquifutureengineers.dtos.ProfessionsSimulationsDTO;
 import pe.edu.upc.tfarquifutureengineers.dtos.RoomsDTO;
+import pe.edu.upc.tfarquifutureengineers.dtos.RoomsTutotsDTO;
 import pe.edu.upc.tfarquifutureengineers.entities.Professions;
 import pe.edu.upc.tfarquifutureengineers.entities.Rooms;
 import pe.edu.upc.tfarquifutureengineers.services.IRoomsService;
@@ -48,5 +50,11 @@ public class RoomsController {
         ModelMapper m= new ModelMapper();
        Rooms p= m.map(dto, Rooms.class);
         rS.insert(p);
+    }
+
+    @GetMapping("/rooms-count")
+    public List<RoomsTutotsDTO> getCountRoomsByTutors() {
+        List<RoomsTutotsDTO> roomsTutorsDTO = rS.reporte03();
+        return roomsTutorsDTO;
     }
 }

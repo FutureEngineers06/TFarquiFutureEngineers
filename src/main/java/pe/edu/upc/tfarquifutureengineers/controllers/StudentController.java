@@ -3,7 +3,9 @@ package pe.edu.upc.tfarquifutureengineers.controllers;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import pe.edu.upc.tfarquifutureengineers.dtos.RoomsTutotsDTO;
 import pe.edu.upc.tfarquifutureengineers.dtos.StudentDTO;
+import pe.edu.upc.tfarquifutureengineers.dtos.StudentMembershipDTO;
 import pe.edu.upc.tfarquifutureengineers.entities.Student;
 import pe.edu.upc.tfarquifutureengineers.services.IStudentService;
 
@@ -43,5 +45,11 @@ public class StudentController {
     ModelMapper m= new ModelMapper();
     Student s = m.map(dto, Student.class);
     sS.insert(s);
+    }
+
+    @GetMapping("/rooms-count")
+    public List<StudentMembershipDTO> getCountRoomsByTutors() {
+        List<StudentMembershipDTO> studentMembershipDTO = sS.reporte04();
+        return studentMembershipDTO;
     }
 }
