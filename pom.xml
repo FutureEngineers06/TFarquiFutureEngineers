@@ -11,7 +11,7 @@
     <groupId>pe.edu.upc</groupId>
     <artifactId>TFarquiFutureEngineers</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>TFarquiFutureEngineers</name>
     <description>TFarquiFutureEngineers</description>
     <properties>
